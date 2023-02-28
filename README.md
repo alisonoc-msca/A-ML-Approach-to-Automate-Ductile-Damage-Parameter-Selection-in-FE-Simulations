@@ -66,47 +66,58 @@ This repository has two main directories:
             * JOB*_SIM_EXTRAP_SMOOTH.csv: Filtered version of JOB*_SIM_EXTRAP.csv to smooth dynamic effects. Units in mm (U) and kN (RF).
 
 2. Preprint: This directory holds latex code, figures, tables and auxiliary information pertaining to the preprint.
-	* AUXIL: Latex auxiliary files
-      * document.aux
-      * document.bbl
-      * document.blg
-      * document.loc
-      * document.log
-      * document.soc
-      * document.spl
-	* DOCUMENT: Directory in which main latex files (*.tex, *.bib) are stored
-      * document.tex: main latex document
-      * BO_PAPER.bib: bibliography for main latex document
-	* FIGURES: Directory of figures generated as part of this research used in the preprint
-      * ABAQUS_SLOPE_COMPARISON.png
-        * Image showing extrapolation of true stress-true strain beyond ultimate tensile strength.
-      * BO_FLOWCHART.png
-        * Flowchart of bayesian optimisation process
-      * DIAGRAM_ENG_SS.png
-        * Engineering stress-strain and key values
-      * DOE_FLOWCHART.png
-        * Flowchart of design of experiments process
-      * EXPERIMENTAL_RESULTS.png
-        * Force-displacement chart showing three experimental test results
-      * FIGURES_INFO.txt
-        * Text file linking figures to placement in document.tex
-      * FLOWCHART_LEGEND.png
-        * Legend for flowcharts
-      * HYPERPARAMETERS.png
-        * Load-displacement results for simulations with varying hyperparameters
-      * MODEL_2D_3D.png
-        * Diagram of specimen orientation and boundary conditions in idealised 2D simulation
-      * P91_20_1_FASTEST_ITERATION.png
-        * Comparison of bayesian optimisation ductile damage simulation for the fastest iteration (lowest JOB_NUM) to reach target mean average percentage error (MAPE <= 2%) with experimental data (Dataset 2)
-      * P91_20_2_FASTEST_ITERATION.png
-        * Comparison of bayesian optimisation ductile damage simulation for the fastest iteration (lowest JOB_NUM) to reach target mean average percentage error (MAPE <= 2%) with experimental data (Dataset 1)
-      * P91_500_FASTEST_ITERATION.png
-        * Comparison of bayesian optimisation ductile damage simulation for the fastest iteration (lowest JOB_NUM) to reach target mean average percentage error (MAPE <= 2%) with experimental data (Dataset 3)
-      * SECOND_DERIV.png
-        * Diagram detailing the automated method defining yield stress and Young's modulus for three experimental tests.
-	* OUT: Directory in which PDF of *.tex is stored
-	* TABLES: Directory of tables used in preprint. Generated as standalone *.tex files that are called in to *.tex document
-	  .gitignore: File extensions not tracked on git due to space issues (*.pdf)
+   * Files:
+      * .gitignore: File extensions not tracked on git due to space issues (*.pdf)
+   * Subdirectories:
+       * AUXIL: Latex auxiliary files
+         * document.aux
+         * document.bbl
+         * document.blg
+         * document.loc
+         * document.log
+         * document.soc
+         * document.spl
+       * DOCUMENT: Directory in which main latex files (*.tex, *.bib) are stored
+         * document.tex: main latex document
+         * BO_PAPER.bib: bibliography for main latex document
+       * FIGURES: Directory of figures generated as part of this research used in the preprint
+         * ABAQUS_SLOPE_COMPARISON.png
+           * Image showing extrapolation of true stress-true strain beyond ultimate tensile strength.
+         * BO_FLOWCHART.png
+           * Flowchart of bayesian optimisation process
+         * DIAGRAM_ENG_SS.png
+           * Engineering stress-strain and key values
+         * DOE_FLOWCHART.png
+           * Flowchart of design of experiments process
+         * EXPERIMENTAL_RESULTS.png
+           * Force-displacement chart showing three experimental test results
+         * FIGURES_INFO.txt
+           * Text file linking figures to placement in document.tex
+         * FLOWCHART_LEGEND.png
+           * Legend for flowcharts
+         * HYPERPARAMETERS.png
+           * Load-displacement results for simulations with varying hyperparameters
+         * MODEL_2D_3D.png
+           * Diagram of specimen orientation and boundary conditions in idealised 2D simulation
+         * P91_20_1_FASTEST_ITERATION.png
+           * Comparison of bayesian optimisation ductile damage simulation for the fastest iteration (lowest JOB_NUM) to reach target mean average percentage error (MAPE <= 2%) with experimental data (Dataset 2)
+         * P91_20_2_FASTEST_ITERATION.png
+           * Comparison of bayesian optimisation ductile damage simulation for the fastest iteration (lowest JOB_NUM) to reach target mean average percentage error (MAPE <= 2%) with experimental data (Dataset 1)
+         * P91_500_FASTEST_ITERATION.png
+           * Comparison of bayesian optimisation ductile damage simulation for the fastest iteration (lowest JOB_NUM) to reach target mean average percentage error (MAPE <= 2%) with experimental data (Dataset 3)
+         * SECOND_DERIV.png
+           * Diagram detailing the automated method defining yield stress and Young's modulus for three experimental tests.
+       * OUT: Directory in which PDF of *.tex is stored
+       * TABLES: Directory of tables used in preprint. Generated as standalone *.tex files that are called in to *.tex document
+         * BO_PARAMETER_VALUES.tex
+           * Table comparing ductile damage model parameter values estimated using bayesian optimisation framework for three datasets.
+         * HYPER_PARAMETER_VALUES.tex
+           * Table comparing ductile damage model parameter values for dataset 1 with modifications to acquisition function hyperparameter values. 
+         * L12.tex
+           * Table showing design of experiments for eight parameters with two levels
+         * PARAMETER_SPACE_ALL.tex
+           * Table showing the minimum and maximum boundaries for each ductile damage parameter.
+	  
 
 
 
