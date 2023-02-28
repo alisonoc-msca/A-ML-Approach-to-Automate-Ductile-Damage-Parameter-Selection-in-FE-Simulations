@@ -1,0 +1,376 @@
+\begin{thebibliography}{41}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Misc
+\bibitem[{ENI(2019)}]{ENISO6892}
+\bibinfo{title}{{{EN ISO}} 6892-1:2019 {{Metallic}} materials - {{Tensile}}
+  testing - {{Part}} 1: {{Method}} of test at room temperature ({{ISO}}
+  6892-1:2019)}, \bibinfo{year}{2019}.
+%Type = Article
+\bibitem[{Abbassi et~al.(2013)Abbassi, Belhadj, Mistou, and
+  Zghal}]{ABBASSI2013}
+\bibinfo{author}{F.~Abbassi}, \bibinfo{author}{T.~Belhadj},
+  \bibinfo{author}{S.~Mistou}, \bibinfo{author}{A.~Zghal},
+\newblock \bibinfo{title}{Parameter identification of a mechanical ductile
+  damage using {{Artificial Neural Networks}} in sheet metal forming},
+\newblock \bibinfo{journal}{Materials \& Design} \bibinfo{volume}{45}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{605--615}.
+  \DOIprefix\doi{http://dx.doi.org/10.1016/j.matdes.2012.09.032}.
+%Type = Inproceedings
+\bibitem[{Chahboub and Szavai(2019)}]{CHAHBOUB2019}
+\bibinfo{author}{Y.~Chahboub}, \bibinfo{author}{S.~Szavai},
+\newblock \bibinfo{title}{Determination of {{GTN}} parameters for {{SENT}}
+  specimen during ductile fracture},
+\newblock in: \bibinfo{booktitle}{Procedia {{Structural Integrity}}},
+  volume~\bibinfo{volume}{16}, \bibinfo{publisher}{{Elsevier B.V.}},
+  \bibinfo{year}{2019}, pp. \bibinfo{pages}{81--88}.
+  \DOIprefix\doi{10.1016/j.prostr.2019.07.025}.
+%Type = Article
+\bibitem[{Zhang et~al.(2021)Zhang, Lu, Mano, Yamaguchi, Katsuyama, and
+  Li}]{ZHANG2021}
+\bibinfo{author}{T.~Zhang}, \bibinfo{author}{K.~Lu}, \bibinfo{author}{A.~Mano},
+  \bibinfo{author}{Y.~Yamaguchi}, \bibinfo{author}{J.~Katsuyama},
+  \bibinfo{author}{Y.~Li},
+\newblock \bibinfo{title}{A novel method to uniquely determine the parameters
+  in {{Gurson}}\textendash{{Tvergaard}}\textendash{{Needleman}} model},
+\newblock \bibinfo{journal}{Fatigue \& Fracture of Engineering Materials \&
+  Structures} \bibinfo{volume}{44} (\bibinfo{year}{2021})
+  \bibinfo{pages}{3399--3415}. \DOIprefix\doi{10.1111/ffe.13568}.
+%Type = Article
+\bibitem[{Bikmukhametov and J{\"a}schke(2020)}]{BIKMKHAMETOV2020}
+\bibinfo{author}{T.~Bikmukhametov}, \bibinfo{author}{J.~J{\"a}schke},
+\newblock \bibinfo{title}{Combining machine learning and process engineering
+  physics towards enhanced accuracy and explainability of data-driven models},
+\newblock \bibinfo{journal}{Computers \& Chemical Engineering}
+  \bibinfo{volume}{138} (\bibinfo{year}{2020}) \bibinfo{pages}{106834}.
+  \DOIprefix\doi{10.1016/j.compchemeng.2020.106834}.
+%Type = Inproceedings
+\bibitem[{Snoek et~al.(2012)Snoek, Larochelle, and Adams}]{SNOEK2012}
+\bibinfo{author}{J.~Snoek}, \bibinfo{author}{H.~Larochelle},
+  \bibinfo{author}{R.~P. Adams},
+\newblock \bibinfo{title}{Practical {{Bayesian Optimization}} of {{Machine
+  Learning Algorithms}}},
+\newblock in: \bibinfo{booktitle}{Advances in {{Neural Information Processing
+  Systems}}}, volume~\bibinfo{volume}{25}, \bibinfo{publisher}{{Curran
+  Associates, Inc.}}, \bibinfo{year}{2012}.
+%Type = Article
+\bibitem[{Mongan et~al.(2022)Mongan, Modi, McLaughlin, Hinchy, O'Higgins,
+  O'Dowd, and McCarthy}]{MONGAN2022}
+\bibinfo{author}{P.~G. Mongan}, \bibinfo{author}{V.~Modi},
+  \bibinfo{author}{J.~W. McLaughlin}, \bibinfo{author}{E.~P. Hinchy},
+  \bibinfo{author}{R.~M. O'Higgins}, \bibinfo{author}{N.~P. O'Dowd},
+  \bibinfo{author}{C.~T. McCarthy},
+\newblock \bibinfo{title}{Multi-objective optimisation of ultrasonically welded
+  dissimilar joints through machine learning},
+\newblock \bibinfo{journal}{Journal of Intelligent Manufacturing}
+  \bibinfo{volume}{33} (\bibinfo{year}{2022}) \bibinfo{pages}{1125--1138}.
+  \DOIprefix\doi{10.1007/s10845-022-01911-6}.
+%Type = Article
+\bibitem[{Liu et~al.(2020)Liu, Athanasiou, Padture, Sheldon, and Gao}]{LIU2020}
+\bibinfo{author}{X.~Liu}, \bibinfo{author}{C.~E. Athanasiou},
+  \bibinfo{author}{N.~P. Padture}, \bibinfo{author}{B.~W. Sheldon},
+  \bibinfo{author}{H.~Gao},
+\newblock \bibinfo{title}{A machine learning approach to fracture mechanics
+  problems},
+\newblock \bibinfo{journal}{Acta Materialia} \bibinfo{volume}{190}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{105--112}.
+  \DOIprefix\doi{10.1016/j.actamat.2020.03.016}.
+%Type = Article
+\bibitem[{Hegde and Rokseth(2020)}]{HEGDE2020}
+\bibinfo{author}{J.~Hegde}, \bibinfo{author}{B.~Rokseth},
+\newblock \bibinfo{title}{Applications of machine learning methods for
+  engineering risk assessment \textendash{} {{A}} review},
+\newblock \bibinfo{journal}{Safety Science} \bibinfo{volume}{122}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{104492}.
+  \DOIprefix\doi{10.1016/j.ssci.2019.09.015}.
+%Type = Article
+\bibitem[{Dewancker et~al.(2016)Dewancker, McCourt, and Clark}]{DEWANCKER2016}
+\bibinfo{author}{I.~Dewancker}, \bibinfo{author}{M.~McCourt},
+  \bibinfo{author}{S.~Clark},
+\newblock \bibinfo{title}{Bayesian {{Optimization}} for {{Machine Learning}} :
+  {{A Practical Guidebook}}},
+\newblock \bibinfo{journal}{arXiv:1612.04858 [cs]}  (\bibinfo{year}{2016}).
+  \href{http://arxiv.org/abs/1612.04858}{{\tt arXiv:1612.04858}}.
+%Type = Article
+\bibitem[{Ghavamian(2021)}]{GHAVAMIAN2021}
+\bibinfo{author}{F.~Ghavamian},
+\newblock \bibinfo{title}{Accelerating finite element analysis using machine
+  learning}  (\bibinfo{year}{2021}).
+  \DOIprefix\doi{10.4233/uuid:015bbf35-5e29-4630-b466-1a29d4c5bfb3}.
+%Type = Article
+\bibitem[{Zhang et~al.(2020)Zhang, Apley, and Chen}]{ZHANG2020}
+\bibinfo{author}{Y.~Zhang}, \bibinfo{author}{D.~W. Apley},
+  \bibinfo{author}{W.~Chen},
+\newblock \bibinfo{title}{Bayesian {{Optimization}} for {{Materials Design}}
+  with {{Mixed Quantitative}} and {{Qualitative Variables}}},
+\newblock \bibinfo{journal}{Scientific Reports} \bibinfo{volume}{10}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{1--13}.
+  \DOIprefix\doi{10.1038/s41598-020-60652-9}.
+%Type = Article
+\bibitem[{Chuaqui et~al.(2021)Chuaqui, Rhead, Butler, and Scarth}]{CHUAQUI2021}
+\bibinfo{author}{T.~R.~C. Chuaqui}, \bibinfo{author}{A.~T. Rhead},
+  \bibinfo{author}{R.~Butler}, \bibinfo{author}{C.~Scarth},
+\newblock \bibinfo{title}{A data-driven {{Bayesian}} optimisation framework for
+  the design and stacking sequence selection of increased notched strength
+  laminates},
+\newblock \bibinfo{journal}{Composites Part B: Engineering}
+  \bibinfo{volume}{226} (\bibinfo{year}{2021}) \bibinfo{pages}{109347}.
+  \DOIprefix\doi{10.1016/j.compositesb.2021.109347}.
+%Type = Article
+\bibitem[{Borowska et~al.(2022)Borowska, Gao, Lazarus, and
+  Husmeier}]{BOROWSKA2022}
+\bibinfo{author}{A.~Borowska}, \bibinfo{author}{H.~Gao},
+  \bibinfo{author}{A.~Lazarus}, \bibinfo{author}{D.~Husmeier},
+\newblock \bibinfo{title}{Bayesian optimisation for efficient parameter
+  inference in a cardiac mechanics model of the left ventricle},
+\newblock \bibinfo{journal}{International Journal for Numerical Methods in
+  Biomedical Engineering} \bibinfo{volume}{38} (\bibinfo{year}{2022})
+  \bibinfo{pages}{e3593}. \DOIprefix\doi{10.1002/cnm.3593}.
+%Type = Article
+\bibitem[{Wankerl et~al.(2022)Wankerl, Wiesmann, Kreiner, Butendeich, Luce,
+  Sobczyk, Stern, and Lang}]{WANKERL2022}
+\bibinfo{author}{H.~Wankerl}, \bibinfo{author}{C.~Wiesmann},
+  \bibinfo{author}{L.~Kreiner}, \bibinfo{author}{R.~Butendeich},
+  \bibinfo{author}{A.~Luce}, \bibinfo{author}{S.~Sobczyk},
+  \bibinfo{author}{M.~L. Stern}, \bibinfo{author}{E.~W. Lang},
+\newblock \bibinfo{title}{Directional emission of white light via selective
+  amplification of photon recycling and {{Bayesian}} optimization of
+  multi-layer thin films},
+\newblock \bibinfo{journal}{Scientific Reports} \bibinfo{volume}{12}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{5226}.
+  \DOIprefix\doi{10.1038/s41598-022-08997-1}.
+%Type = Inproceedings
+\bibitem[{Gunn et~al.(2022)Gunn, Hettiarachchi, Johnstone, Le, Creighton, and
+  Preston}]{GUNN2022}
+\bibinfo{author}{B.~Gunn}, \bibinfo{author}{I.~T. Hettiarachchi},
+  \bibinfo{author}{M.~Johnstone}, \bibinfo{author}{V.~Le},
+  \bibinfo{author}{D.~Creighton}, \bibinfo{author}{L.~Preston},
+\newblock \bibinfo{title}{Improving high value manufacturing with
+  simulation-based {{Bayesian Optimisation}}},
+\newblock in: \bibinfo{booktitle}{2022 {{IEEE International Systems
+  Conference}} ({{SysCon}})}, \bibinfo{year}{2022}, pp. \bibinfo{pages}{1--8}.
+  \DOIprefix\doi{10.1109/SysCon53536.2022.9773798}.
+%Type = Article
+\bibitem[{Abendroth and Kuna(2006)}]{ABENDROTH2006}
+\bibinfo{author}{M.~Abendroth}, \bibinfo{author}{M.~Kuna},
+\newblock \bibinfo{title}{Identification of ductile damage and fracture
+  parameters from the small punch test using neural networks},
+\newblock \bibinfo{journal}{Engineering Fracture Mechanics}
+  \bibinfo{volume}{73} (\bibinfo{year}{2006}) \bibinfo{pages}{710--725}.
+  \DOIprefix\doi{10.1016/j.engfracmech.2005.10.007}.
+%Type = Article
+\bibitem[{Chen et~al.(2021)Chen, Li, Yang, Jiang, and Guan}]{CHEN2021}
+\bibinfo{author}{D.~Chen}, \bibinfo{author}{Y.~Li}, \bibinfo{author}{X.~Yang},
+  \bibinfo{author}{W.~Jiang}, \bibinfo{author}{L.~Guan},
+\newblock \bibinfo{title}{Efficient parameters identification of a modified
+  {{GTN}} model of ductile fracture using machine learning},
+\newblock \bibinfo{journal}{Engineering Fracture Mechanics}
+  \bibinfo{volume}{245} (\bibinfo{year}{2021}) \bibinfo{pages}{107535}.
+  \DOIprefix\doi{10.1016/j.engfracmech.2021.107535}.
+%Type = Article
+\bibitem[{Ryan et~al.(2022)Ryan, Berk, Rana, McDonald, and
+  Venkatesh}]{RYAN2022}
+\bibinfo{author}{S.~Ryan}, \bibinfo{author}{J.~Berk},
+  \bibinfo{author}{S.~Rana}, \bibinfo{author}{B.~McDonald},
+  \bibinfo{author}{S.~Venkatesh},
+\newblock \bibinfo{title}{A bayesian optimisation methodology for the inverse
+  derivation of viscoplasticity model constants in high strain-rate
+  simulations},
+\newblock \bibinfo{journal}{Defence Technology} \bibinfo{volume}{18}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{1563--1577}.
+  \DOIprefix\doi{10.1016/j.dt.2021.10.013}.
+%Type = Book
+\bibitem[{Young and Budynas(2001)}]{YOUNG2001}
+\bibinfo{author}{W.~C. Young}, \bibinfo{author}{R.~Budynas},
+  \bibinfo{title}{Roark's {{Formulas}} for {{Stress}} and {{Strain}} (7th
+  {{Edition}})}, \bibinfo{publisher}{{McGraw-Hill Professional Publishing}},
+  \bibinfo{address}{{New York, USA, UNITED STATES}}, \bibinfo{year}{2001}.
+%Type = Article
+\bibitem[{Wcislik(2016)}]{WCISLIK2016}
+\bibinfo{author}{W.~Wcislik},
+\newblock \bibinfo{title}{Experimental determination of critical void volume
+  fraction {{fF}} for the {{Gurson Tvergaard Needleman}} ({{GTN}}) model},
+\newblock \bibinfo{journal}{Procedia Structural Integrity} \bibinfo{volume}{2}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{1676--1683}.
+  \DOIprefix\doi{10.1016/j.prostr.2016.06.212}.
+%Type = Article
+\bibitem[{Tvergaard and Needleman(1984)}]{TVERGAARD1984a}
+\bibinfo{author}{V.~Tvergaard}, \bibinfo{author}{A.~Needleman},
+\newblock \bibinfo{title}{Analysis of the cup-cone fracture in a round tensile
+  bar},
+\newblock \bibinfo{journal}{Acta Metallurgica} \bibinfo{volume}{32}
+  (\bibinfo{year}{1984}) \bibinfo{pages}{157--169}.
+  \DOIprefix\doi{10.1016/0001-6160(84)90213-X}.
+%Type = Article
+\bibitem[{Shahriari et~al.(2016)Shahriari, Swersky, Wang, Adams, and {de
+  Freitas}}]{SHAHRIARI2016}
+\bibinfo{author}{B.~Shahriari}, \bibinfo{author}{K.~Swersky},
+  \bibinfo{author}{Z.~Wang}, \bibinfo{author}{R.~P. Adams},
+  \bibinfo{author}{N.~{de Freitas}},
+\newblock \bibinfo{title}{Taking the {{Human Out}} of the {{Loop}}: {{A
+  Review}} of {{Bayesian Optimization}}},
+\newblock \bibinfo{journal}{Proceedings of the IEEE} \bibinfo{volume}{104}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{148--175}.
+  \DOIprefix\doi{10.1109/JPROC.2015.2494218}.
+%Type = Incollection
+\bibitem[{Rasmussen(2004)}]{RASMUSSEN2004}
+\bibinfo{author}{C.~E. Rasmussen},
+\newblock \bibinfo{title}{Gaussian {{Processes}} in {{Machine Learning}}},
+\newblock in: \bibinfo{editor}{O.~Bousquet}, \bibinfo{editor}{U.~{von
+  Luxburg}}, \bibinfo{editor}{G.~R{\"a}tsch} (Eds.),
+  \bibinfo{booktitle}{Advanced {{Lectures}} on {{Machine Learning}}: {{ML
+  Summer Schools}} 2003, {{Canberra}}, {{Australia}}, {{February}} 2 - 14,
+  2003, {{T\"ubingen}}, {{Germany}}, {{August}} 4 - 16, 2003, {{Revised
+  Lectures}}}, Lecture {{Notes}} in {{Computer Science}},
+  \bibinfo{publisher}{{Springer}}, \bibinfo{address}{{Berlin, Heidelberg}},
+  \bibinfo{year}{2004}, pp. \bibinfo{pages}{63--71}.
+  \DOIprefix\doi{10.1007/978-3-540-28650-9_4}.
+%Type = Book
+\bibitem[{Rasmussen and Williams(2006)}]{RASMUSSEN2006}
+\bibinfo{author}{C.~E. Rasmussen}, \bibinfo{author}{C.~K.~I. Williams},
+  \bibinfo{title}{Gaussian Processes for Machine Learning}, Adaptive
+  Computation and Machine Learning, \bibinfo{publisher}{{MIT Press}},
+  \bibinfo{address}{{Cambridge, Mass}}, \bibinfo{year}{2006}.
+%Type = Misc
+\bibitem[{Wang(2022)}]{WANG2022}
+\bibinfo{author}{J.~Wang}, \bibinfo{title}{An {{Intuitive Tutorial}} to
+  {{Gaussian Processes Regression}}}, \bibinfo{year}{2022}.
+  \href{http://arxiv.org/abs/2009.10862}{{\tt arXiv:2009.10862}}.
+%Type = Article
+\bibitem[{Zhu et~al.(1997)Zhu, Byrd, Lu, and Nocedal}]{ZHU1997}
+\bibinfo{author}{C.~Zhu}, \bibinfo{author}{R.~H. Byrd},
+  \bibinfo{author}{P.~Lu}, \bibinfo{author}{J.~Nocedal},
+\newblock \bibinfo{title}{Algorithm 778: {{L-BFGS-B}}: {{Fortran}} subroutines
+  for large-scale bound-constrained optimization},
+\newblock \bibinfo{journal}{ACM Transactions on Mathematical Software}
+  \bibinfo{volume}{23} (\bibinfo{year}{1997}) \bibinfo{pages}{550--560}.
+  \DOIprefix\doi{10.1145/279232.279236}.
+%Type = Article
+\bibitem[{Kiran and Khandelwal(2014)}]{KIRAN2014}
+\bibinfo{author}{R.~Kiran}, \bibinfo{author}{K.~Khandelwal},
+\newblock \bibinfo{title}{Gurson model parameters for ductile fracture
+  simulation in {{ASTM A992}} steels},
+\newblock \bibinfo{journal}{Fatigue \& Fracture of Engineering Materials \&
+  Structures} \bibinfo{volume}{37} (\bibinfo{year}{2014})
+  \bibinfo{pages}{171--183}. \DOIprefix\doi{10.1111/ffe.12097}.
+%Type = Phdthesis
+\bibitem[{Meade(2020)}]{MEADE2020}
+\bibinfo{author}{E.~D. Meade}, \bibinfo{title}{Experimental {{Study}} \&
+  {{Multiscale Modelling}} of the {{High Temperature Deformation}} of {{P91}}
+  under {{Multiaxial Loading}}}, Ph.D. thesis, University of Limerick,
+  \bibinfo{year}{2020}.
+%Type = Book
+\bibitem[{Systemes(2021)}]{DASSAULT2021}
+\bibinfo{author}{D.~Systemes}, \bibinfo{title}{Abaqus/{{CAE User}}'s {{Guide}}
+  - {{SIMULIA User Assistance}} 2021}, \bibinfo{publisher}{{Dassault
+  Systemes}}, \bibinfo{year}{2021}.
+%Type = Article
+\bibitem[{Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay}]{PEDREGOSA2011}
+\bibinfo{author}{F.~Pedregosa}, \bibinfo{author}{G.~Varoquaux},
+  \bibinfo{author}{A.~Gramfort}, \bibinfo{author}{V.~Michel},
+  \bibinfo{author}{B.~Thirion}, \bibinfo{author}{O.~Grisel},
+  \bibinfo{author}{M.~Blondel}, \bibinfo{author}{P.~Prettenhofer},
+  \bibinfo{author}{R.~Weiss}, \bibinfo{author}{V.~Dubourg},
+  \bibinfo{author}{J.~Vanderplas}, \bibinfo{author}{A.~Passos},
+  \bibinfo{author}{D.~Cournapeau}, \bibinfo{author}{M.~Brucher},
+  \bibinfo{author}{M.~Perrot}, \bibinfo{author}{{\'E}.~Duchesnay},
+\newblock \bibinfo{title}{Scikit-learn: {{Machine Learning}} in {{Python}}},
+\newblock \bibinfo{journal}{Journal of Machine Learning Research}
+  \bibinfo{volume}{12} (\bibinfo{year}{2011}) \bibinfo{pages}{2825--2830}.
+%Type = Article
+\bibitem[{De~Ath et~al.(2021)De~Ath, Everson, Rahat, and Fieldsend}]{DEATH2021}
+\bibinfo{author}{G.~De~Ath}, \bibinfo{author}{R.~M. Everson},
+  \bibinfo{author}{A.~A.~M. Rahat}, \bibinfo{author}{J.~E. Fieldsend},
+\newblock \bibinfo{title}{Greed is {{Good}}: {{Exploration}} and {{Exploitation
+  Trade-offs}} in {{Bayesian Optimisation}}},
+\newblock \bibinfo{journal}{ACM Transactions on Evolutionary Learning and
+  Optimization} \bibinfo{volume}{1} (\bibinfo{year}{2021})
+  \bibinfo{pages}{1--22}. \DOIprefix\doi{10.1145/3425501}.
+  \href{http://arxiv.org/abs/1911.12809}{{\tt arXiv:1911.12809}}.
+%Type = Inproceedings
+\bibitem[{Uy and Telford(2009)}]{UY2009}
+\bibinfo{author}{M.~Uy}, \bibinfo{author}{J.~K. Telford},
+\newblock \bibinfo{title}{Optimization by {{Design}} of {{Experiment}}
+  techniques},
+\newblock in: \bibinfo{booktitle}{2009 {{IEEE Aerospace}} Conference},
+  \bibinfo{year}{2009}, pp. \bibinfo{pages}{1--10}.
+  \DOIprefix\doi{10.1109/AERO.2009.4839625}.
+%Type = Incollection
+\bibitem[{Fraley et~al.(2020)Fraley, Oom, Terrien, and Zalewski}]{FRALEY2020}
+\bibinfo{author}{S.~Fraley}, \bibinfo{author}{M.~Oom},
+  \bibinfo{author}{B.~Terrien}, \bibinfo{author}{J.~Zalewski},
+\newblock \bibinfo{title}{14.1: {{Design}} of {{Experiments}} via {{Taguchi
+  Methods}} - {{Orthogonal Arrays}}},
+\newblock in: \bibinfo{booktitle}{Chemical {{Process Dynamics}} and
+  {{Controls}}}, \bibinfo{year}{2020}.
+%Type = Article
+\bibitem[{O'Connor et~al.(2022)O'Connor, Davies, and Garwood}]{OCONNOR2022}
+\bibinfo{author}{A.~N. O'Connor}, \bibinfo{author}{C.~M. Davies},
+  \bibinfo{author}{S.~J. Garwood},
+\newblock \bibinfo{title}{The influence of constraint on fracture toughness:
+  {{Comparing}} theoretical {{T0}} shifts in master curve analyses with
+  experimental data},
+\newblock \bibinfo{journal}{Engineering Fracture Mechanics}
+  \bibinfo{volume}{275} (\bibinfo{year}{2022}) \bibinfo{pages}{108857}.
+  \DOIprefix\doi{10.1016/j.engfracmech.2022.108857}.
+%Type = Article
+\bibitem[{Abbasi et~al.(2011)Abbasi, Ketabchi, Izadkhah, Fatmehsaria, and
+  Aghbash}]{ABBASI2011}
+\bibinfo{author}{M.~Abbasi}, \bibinfo{author}{M.~Ketabchi},
+  \bibinfo{author}{H.~Izadkhah}, \bibinfo{author}{D.~H. Fatmehsaria},
+  \bibinfo{author}{A.~N. Aghbash},
+\newblock \bibinfo{title}{Identification of {{GTN}} model parameters by
+  application of response surface methodology},
+\newblock \bibinfo{journal}{Procedia Engineering} \bibinfo{volume}{10}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{415--420}.
+  \DOIprefix\doi{10.1016/j.proeng.2011.04.070}.
+%Type = Techreport
+\bibitem[{Rousselier(2019)}]{ROUSSELIER2019}
+\bibinfo{author}{G.~Rousselier}, \bibinfo{title}{Modeling of Plasticity and
+  Ductile Fracture Physical Mechanisms and Numerical Simulation of Laboratory
+  Specimens}, \bibinfo{type}{Technical Report}, \bibinfo{year}{2019}.
+%Type = Article
+\bibitem[{Yan et~al.(2021)Yan, Xin, and Veljkovic}]{YAN2021}
+\bibinfo{author}{R.~Yan}, \bibinfo{author}{H.~Xin},
+  \bibinfo{author}{M.~Veljkovic},
+\newblock \bibinfo{title}{Ductile fracture simulation of cold-formed high
+  strength steel using {{GTN}} damage model},
+\newblock \bibinfo{journal}{Journal of Constructional Steel Research}
+  \bibinfo{volume}{184} (\bibinfo{year}{2021}) \bibinfo{pages}{106832}.
+  \DOIprefix\doi{10.1016/j.jcsr.2021.106832}.
+%Type = Article
+\bibitem[{Tvergaard(1981)}]{TVERGAARD1981a}
+\bibinfo{author}{V.~Tvergaard},
+\newblock \bibinfo{title}{Influence of voids on shear band instabilities under
+  plane strain conditions},
+\newblock \bibinfo{journal}{International Journal of Fracture}
+  \bibinfo{volume}{17} (\bibinfo{year}{1981}) \bibinfo{pages}{389--407}.
+  \DOIprefix\doi{10.1007/BF00036191}.
+%Type = Inproceedings
+\bibitem[{O'Connor et~al.(2018)O'Connor, Davies, and Nikbin}]{OCONNOR2018}
+\bibinfo{author}{A.~N. O'Connor}, \bibinfo{author}{C.~M. Davies},
+  \bibinfo{author}{K.~M. Nikbin},
+\newblock \bibinfo{title}{Fracture {{Toughness}} of {{Defects Orientated
+  Parallel}} to a {{Dissimilar Metal Weld Boundary}}},
+\newblock \bibinfo{number}{51678}, \bibinfo{year}{2018}, p.
+  \bibinfo{pages}{V06AT06A015}. \DOIprefix\doi{10.1115/PVP2018-84405}.
+%Type = Misc
+\bibitem[{O'Connor et~al.(2023)O'Connor, Mongan, and O'Dowd}]{OCONNOR2023}
+\bibinfo{author}{A.~O'Connor}, \bibinfo{author}{P.~Mongan},
+  \bibinfo{author}{N.~O'Dowd}, \bibinfo{title}{A {{Machine Learning Approach}}
+  to {{Automate Ductile Damage Parameter Selection}} in {{Finite Element
+  Simulations}}}, \bibinfo{year}{2023}. \DOIprefix\doi{10.5281/zenodo.7620179}.
+
+\end{thebibliography}

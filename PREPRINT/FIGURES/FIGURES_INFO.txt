@@ -1,0 +1,17 @@
+NAME:										LOCATION:																				FIGURE NUMBER IN PAPER: 					
+TENSILE_SPECIMEN_MEADE.PNG					C:\Users\alison.oconnor\University of Limerick\UL ALIAS_PROJECT - General\SOLIDWORKS	- INTEGRATED TO FIGURE MODEL_3D_2D
+EXPERIMENTAL_RESULTS						C:\Users\alison.oconnor\PycharmProjects\MATERIAL_ANALYSIS\OUTPUT\PAPERA_PLOTS			4
+SECOND_DERIV								C:\Users\alison.oconnor\PycharmProjects\MATERIAL_ANALYSIS\OUTPUT\PAPERA_PLOTS			5
+ABAQUS_SLOPE_COMPARISON						C:\Users\alison.oconnor\PycharmProjects\MATERIAL_ANALYSIS\OUTPUT\PAPERA_PLOTS			6
+MODEL_3D_2D									C:\Users\alison.oconnor\PycharmProjects\PAPERA_PLOTS									7
+P91_20_1_BEST_ITERATION.png					C:\Users\alison.oconnor\PycharmProjects\PAPERA\BO\RESULTS\V1							-		
+P91_20_2_BEST_ITERATION.png					C:\Users\alison.oconnor\PycharmProjects\PAPERA\BO\RESULTS\V1							-
+P91_500_BEST_ITERATION.png					C:\Users\alison.oconnor\PycharmProjects\PAPERA\BO\RESULTS\V1							-
+P91_20_1_FASTEST_ITERATION.png				C:\Users\alison.oconnor\PycharmProjects\PAPERA\BO\RESULTS\V1							8b
+P91_20_2_FASTEST_ITERATION.png				C:\Users\alison.oconnor\PycharmProjects\PAPERA\BO\RESULTS\V1							8a
+P91_500_FASTEST_ITERATION.png				C:\Users\alison.oconnor\PycharmProjects\PAPERA\BO\RESULTS\V1							8c
+DIAGRAM_ENG_SS								C:\Users\alison.oconnor\PycharmProjects\MATERIAL_ANALYSIS\OUTPUT\PAPERA_PLOTS			1
+DIAGRAM_TRUE_SS								C:\Users\alison.oconnor\PycharmProjects\MATERIAL_ANALYSIS\OUTPUT\PAPERA_PLOTS			- REMOVED 25/1/23
+DOE_FLOWCHART								C:\Users\alison.oconnor\PycharmProjects\PAPERA\FLOWCHARTS_PAPERA.pptx					2
+BO_FLOWCHART								C:\Users\alison.oconnor\PycharmProjects\PAPERA\FLOWCHARTS_PAPERA.pptx					3
+HYPERPARAMETERS								C:\Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\FIGURES							9

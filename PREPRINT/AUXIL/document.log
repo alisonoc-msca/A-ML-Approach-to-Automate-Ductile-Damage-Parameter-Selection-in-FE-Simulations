@@ -1,0 +1,2236 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  28 FEB 2023 13:23
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./document.tex
+(document.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/elsarticle\els
+article.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3
+.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3ba
+ckend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box50
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpa
+rse\xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etool
+box.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count186
+)
+\@bls=\dimen138
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/base\article.c
+ls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.cl
+o
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+icx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyva
+l.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graph
+ics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.
+sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\g
+raphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\p
+dftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+\c@tnote=\count195
+\c@fnote=\count196
+\c@cnote=\count197
+\c@ead=\count198
+\c@author=\count199
+\@eadauthor=\toks17
+\c@affn=\count266
+\absbox=\box51
+\elsarticlehighlightsbox=\box52
+\elsarticlegrabsbox=\box53
+\keybox=\box54
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box55
+\els@boxb=\box56
+\leftMargin=\dimen144
+\@enLab=\toks18
+\@sep=\skip49
+\@@sep=\skip50
+
+(C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.spl)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.
+sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count267
+)
+\splwrite=\write3
+\openout3 = `document.spl'.
+
+\appnamewidth=\dimen145
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssy
+mb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfo
+nts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpag
+e.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks20
+\AP@partial=\box57
+\AP@footins=\box58
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmat
+h.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstex
+t.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen
+.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen146
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy
+.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen147
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn
+.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count268
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count269
+\leftroot@=\count270
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count271
+\DOTSCASE@=\count272
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen148
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count273
+\c@MaxMatrixCols=\count274
+\dotsspace@=\muskip16
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
+\tag@help=\toks22
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
+\andhelp@=\toks23
+\eqnshift@=\dimen149
+\alignsep@=\dimen150
+\tagshift@=\dimen151
+\tagwidth@=\dimen152
+\totwidth@=\dimen153
+\lineht@=\dimen154
+\@envbody=\toks24
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.st
+y
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box61
+\extrarowheight=\dimen156
+\NC@list=\toks26
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box62
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adju
+stbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyva
+l.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkey
+val.tex
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvu
+tils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count280
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjc
+alc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trim
+clip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\col
+lectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box63
+)
+\tc@llx=\dimen157
+\tc@lly=\dimen158
+\tc@urx=\dimen159
+\tc@ury=\dimen160
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-p
+dftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen161
+\adjbox@Height=\dimen162
+\adjbox@Depth=\dimen163
+\adjbox@Totalheight=\dimen164
+\adjbox@pwidth=\dimen165
+\adjbox@pheight=\dimen166
+\adjbox@pdepth=\dimen167
+\adjbox@ptotalheight=\dimen168
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifod
+dpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count281
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwi
+dth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box64
+\sift@deathcycles=\count282
+\@vwid@loff=\dimen169
+\@vwid@roff=\dimen170
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyper
+ref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxc
+mds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.
+sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\p
+dftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\in
+fwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kv
+setkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys
+\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pd
+fescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolo
+r.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\le
+tltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhoo
+k.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvop
+tions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen171
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1en
+c.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intc
+alc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\ete
+xcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count285
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc
+.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `false' on input line 4018.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks OFF on input line 4396.
+\c@Hy@tempcnt=\count286
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen172
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitse
+t.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\b
+igintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count287
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-
+ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdft
+ex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend
+-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck
+\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounte
+r\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip58
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 51.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\bookt
+abs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count293
+\@cmidlb=\count294
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count295
+\@lastruleclass=\count296
+\@thisrulewidth=\dimen187
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen188
+\captionmargin=\dimen189
+\caption@leftmargin=\dimen190
+\caption@rightmargin=\dimen191
+\caption@width=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
+Package caption Info: elsarticle document class detected.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/caption\captio
+n-elsarticle.sto
+File: caption-elsarticle.sto 2020/08/22 v2.0 Adaption of the caption package to
+ the elsarticle document class (AR)
+))
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: hyperref package is loaded.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/float\float.st
+y
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count299
+\float@exts=\toks29
+\float@box=\box65
+\@float@everytoks=\toks30
+\@floatcapt=\box66
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.st
+y
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysy
+m.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/import\import.
+sty
+Package: import 2020/04/01  v 6.2
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.
+sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx
+.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen196
+\TX@old@table=\dimen197
+\TX@old@col=\dimen198
+\TX@target=\dimen199
+\TX@delta=\dimen256
+\TX@cols=\count300
+\TX@ftn=\toks33
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol
+.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count301
+\mult@box=\box67
+\multicol@leftmargin=\dimen257
+\c@unbalance=\count302
+\c@collectmore=\count303
+\doublecol@number=\count304
+\multicoltolerance=\count305
+\multicolpretolerance=\count306
+\full@width=\dimen258
+\page@free=\dimen259
+\premulticols=\dimen260
+\postmulticols=\dimen261
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box68
+\last@line=\box69
+\maxbalancingoverflow=\dimen262
+\mult@rightbox=\box70
+\mult@grightbox=\box71
+\mult@firstbox=\box72
+\mult@gfirstbox=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\c@minrows=\count307
+\c@columnbadness=\count308
+\c@finalcolumnbadness=\count309
+\last@try=\dimen263
+\multicolovershoot=\dimen264
+\multicolundershoot=\dimen265
+\mult@nat@firstbox=\box110
+\colbreak@box=\box111
+\mc@col@check@num=\count310
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multi
+row.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count311
+\multirow@dima=\skip62
+\bigstrutjot=\dimen266
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunit
+x.sty
+Package: siunitx 2022-04-04 v3.0.50 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen267
+\l__siunitx_angle_marker_box=\box112
+\l__siunitx_angle_unit_box=\box113
+\l__siunitx_compound_count_int=\count312
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/translations\t
+ranslations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count313
+\l__siunitx_number_min_decimal_int=\count314
+\l__siunitx_number_min_integer_int=\count315
+\l__siunitx_number_round_precision_int=\count316
+\l__siunitx_number_group_minimum_int=\count317
+\l__siunitx_table_tmp_box=\box114
+\l__siunitx_table_tmp_dim=\dimen268
+\l__siunitx_table_column_width_dim=\dimen269
+\l__siunitx_table_integer_box=\box115
+\l__siunitx_table_decimal_box=\box116
+\l__siunitx_table_before_box=\box117
+\l__siunitx_table_after_box=\box118
+\l__siunitx_table_before_dim=\dimen270
+\l__siunitx_table_carry_dim=\dimen271
+\l__siunitx_unit_tmp_int=\count318
+\l__siunitx_unit_position_int=\count319
+\l__siunitx_unit_total_int=\count320
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3k
+eys2e\l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcap
+tion.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count321
+\c@subtable=\count322
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/placeins\place
+ins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdfl
+scape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscap
+e.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtabl
+e.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip63
+\LTright=\skip64
+\LTpre=\skip65
+\LTpost=\skip66
+\LTchunksize=\count323
+\LTcapwidth=\dimen272
+\LT@head=\box119
+\LT@firsthead=\box120
+\LT@foot=\box121
+\LT@lastfoot=\box122
+\LT@gbox=\box123
+\LT@cols=\count324
+\LT@rows=\count325
+\c@LT@tables=\count326
+\c@LT@chunks=\count327
+\LT@p@ftn=\toks34
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/changes\change
+s.sty
+Package: changes 2021/07/15 v4.2.1 changes package
+
+*** changes package 2021/07/15 v4.2.1 ***
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstrin
+g.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstr
+ing.tex
+\integerpart=\count328
+\decimalpart=\count329
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+ulem-option 'normalem,normalbf', passed to package ulem
+truncate-option 'breakall,fit', passed to package truncate
+changes-option 'markup=underlined'
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.
+sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\c
+olor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box124
+\UL@hyphenbox=\box125
+\UL@skip=\skip67
+\UL@hook=\toks35
+\UL@height=\dimen273
+\UL@pe=\count330
+\UL@pixel=\dimen274
+\ULC@box=\box126
+Package: ulem 2019/11/18
+\ULdepth=\dimen275
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todo
+notes.sty
+Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
+Package: todonotes 2021/06/04
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.st
+y
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendla
+yer\tikz.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer
+\pgf.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\
+pgfrcs.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen276
+\pgfutil@tempdimb=\dimen277
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfutil-common-lists.tex))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfutil-latex.def
+\pgfutil@abb=\box127
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfrcs.code.tex
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revi
+sion.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer
+\pgfcore.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlaye
+r\pgfsys.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen278
+\pgf@y=\dimen279
+\pgf@xa=\dimen280
+\pgf@ya=\dimen281
+\pgf@xb=\dimen282
+\pgf@yb=\dimen283
+\pgf@xc=\dimen284
+\pgf@yc=\dimen285
+\pgf@xd=\dimen286
+\pgf@yd=\dimen287
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count335
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count336
+\pgfsyssoftpath@bigbuffer@items=\count337
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemla
+yer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+math.code.tex
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathcalc.code.tex
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathutil.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathparser.code.tex
+\pgfmath@dimen=\dimen288
+\pgfmath@count=\count338
+\pgfmath@box=\box128
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.code.tex
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.basic.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.trigonometric.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.random.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.comparison.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.base.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.round.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.misc.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfunctions.integerarithmetics.code.tex)))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+mathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count339
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+int.code.tex)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen289
+\pgf@picmaxx=\dimen290
+\pgf@picminy=\dimen291
+\pgf@picmaxy=\dimen292
+\pgf@pathminx=\dimen293
+\pgf@pathmaxx=\dimen294
+\pgf@pathminy=\dimen295
+\pgf@pathmaxy=\dimen296
+\pgf@xx=\dimen297
+\pgf@xy=\dimen298
+\pgf@yx=\dimen299
+\pgf@yy=\dimen300
+\pgf@zx=\dimen301
+\pgf@zy=\dimen302
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen303
+\pgf@path@lasty=\dimen304
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen305
+\pgf@shorten@start@additional=\dimen306
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box129
+\pgf@hbox=\box130
+\pgf@layerbox@main=\box131
+\pgf@picture@serial@count=\count340
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen307
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen308
+\pgf@pt@y=\dimen309
+\pgf@pt@temp=\dimen310
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen311
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen312
+\pgf@sys@shading@range@num=\count341
+\pgf@shadingcount=\count342
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box132
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclay
+er\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\
+pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box133
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\
+pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibil
+ity\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen313
+\pgf@nodesepend=\dimen314
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibil
+ity\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\
+pgffor.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\
+pgfkeys.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgfkeys.code.tex))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfma
+th.sty
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+math.code.tex))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilitie
+s\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgf
+math.code.tex)
+\pgffor@iter=\dimen315
+\pgffor@skip=\dimen316
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontend
+layer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/librarie
+s\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count343
+\pgfplotmarksize=\dimen317
+)
+\tikz@lastx=\dimen318
+\tikz@lasty=\dimen319
+\tikz@lastxsaved=\dimen320
+\tikz@lastysaved=\dimen321
+\tikz@lastmovetox=\dimen322
+\tikz@lastmovetoy=\dimen323
+\tikzleveldistance=\dimen324
+\tikzsiblingdistance=\dimen325
+\tikz@figbox=\box134
+\tikz@figbox@bg=\box135
+\tikz@tempbox=\box136
+\tikz@tempbox@bg=\box137
+\tikztreelevel=\count344
+\tikznumberofchildren=\count345
+\tikznumberofcurrentchild=\count346
+\tikz@fig@count=\count347
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\
+pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count348
+\pgfmatrixcurrentcolumn=\count349
+\pgf@matrix@numberofcolumns=\count350
+)
+\tikz@expandcount=\count351
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontend
+layer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontend
+layer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count352
+\calc@Bcount=\count353
+\calc@Adimen=\dimen326
+\calc@Bdimen=\dimen327
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count354
+\calc@Cskip=\skip70
+)
+\c@@todonotes@numberoftodonotes=\count355
+)
+\c@Changes@AuthorCount=\count356
+\c@Changes@Author=\count357
+\c@Changes@addedCount=\count358
+\c@Changes@deletedCount=\count359
+\c@Changes@replacedCount=\count360
+\c@Changes@highlightCount=\count361
+\c@Changes@commentCount=\count362
+\c@authorcommentcount=\count363
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/truncate\trunc
+ate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks48
+)
+\Changestruncatewidth=\skip71
+\Changes@summary@width=\skip72
+)
+
+Package array Warning: Redefining primitive column b on input line 75.
+
+
+Package array Warning: Redefining primitive column m on input line 77.
+
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.st
+y
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks49
+\SOUL@lasttoken=\toks50
+\SOUL@cmds=\toks51
+\SOUL@buffer=\toks52
+\SOUL@token=\toks53
+\SOUL@spaceskip=\skip73
+\SOUL@ttwidth=\dimen328
+\SOUL@uldp=\dimen329
+\SOUL@ulht=\dimen330
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 89.
+ (C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.aux)
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\su
+pp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count364
+\scratchdimen=\dimen331
+\scratchbox=\box138
+\nofMPsegments=\count365
+\nofMParguments=\count366
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count367
+\MPscratchDim=\dimen332
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
+\everyMPtoPDFconversion=\toks55
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
+pstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epsto
+pdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 89.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namer
+ef.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refco
+unt.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestri
+ng\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count370
+)
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcapt
+ion.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 89.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 89.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 89.
+Package gensymb Info: Using \Omega for \ohm on input line 89.
+
+Package gensymb Warning: Not defining \micro.
+
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/translations/d
+icts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 89.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 89.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110
+.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.
+fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110
+.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.
+fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 11
+0.
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.
+fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cnotenum' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@corref' on input line 127.
+
+[1
+
+{C:/Users/alison.oconnor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (2.61108pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.127 	\end{frontmatter}
+                         [1
+
+
+] [2]
+<../FIGURES//DIAGRAM_ENG_SS.png, id=66, 370.2633pt x 368.577pt>
+File: ../FIGURES//DIAGRAM_ENG_SS.png Graphic file (type png)
+<use ../FIGURES//DIAGRAM_ENG_SS.png>
+Package pdftex.def Info: ../FIGURES//DIAGRAM_ENG_SS.png  used on input line 163
+.
+(pdftex.def)             Requested size: 220.40826pt x 219.40445pt.
+ [3] [4] [5 <../FIGURES//DIAGRAM_ENG_SS.png>]
+[6] [7] [8] (../TABLES/PARAMETER_SPACE_ALL.tex
+../TABLES/PARAMETER_SPACE_ALL.tex:20: Missing $ inserted.
+<inserted text> 
+                $
+l.20 {1-3} &    \textbf{$q_1$} &  9.00\times
+                                             10^{-1} &    1.60 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:20: Missing $ inserted.
+<inserted text> 
+                $
+l.20 ...    \textbf{$q_1$} &  9.00\times 10^{-1} &
+                                                      1.60 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:21: Missing $ inserted.
+<inserted text> 
+                $
+l.21 {1-3} &    \textbf{$q_2$} &  9.00\times
+                                             10^{-1} &    1.10 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:21: Missing $ inserted.
+<inserted text> 
+                $
+l.21 ...    \textbf{$q_2$} &  9.00\times 10^{-1} &
+                                                      1.10 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:22: Missing $ inserted.
+<inserted text> 
+                $
+l.22 {1-3} &    \textbf{$q_3$} &  8.10\times
+                                             10^{-1} &    2.56 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:22: Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...    \textbf{$q_3$} &  8.10\times 10^{-1} &
+                                                      2.56 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 ...} &    \textbf{$\epsilon_N$} &  2.50\times
+                                                   10^{-1} &    0.40\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 ...xtbf{$\epsilon_N$} &  2.50\times 10^{-1} &
+                                                      0.40\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:24: Missing $ inserted.
+<inserted text> 
+                $
+l.24 {1-3} &    \textbf{$f_N$} &  3.00\times
+                                             10^{-1} &    0.09 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:24: Missing $ inserted.
+<inserted text> 
+                $
+l.24 ...    \textbf{$f_N$} &  3.00\times 10^{-1} &
+                                                      0.09 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:25: Missing $ inserted.
+<inserted text> 
+                $
+l.25 {1-3} &    \textbf{$s_N$} &  1.00\times
+                                             10^{-1} &    2.00\times 10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:25: Missing $ inserted.
+<inserted text> 
+                $
+l.25 ...    \textbf{$s_N$} &  1.00\times 10^{-1} &
+                                                      2.00\times 10^{-1} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:25: Missing $ inserted.
+<inserted text> 
+                $
+l.25 ..._N$} &  1.00\times 10^{-1} &    2.00\times
+                                                   10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
+<inserted text> 
+                $
+l.26 {
+      1-3} &    \textbf{$f_0$} &  1.30\times 10^{-3} &    1.50\times 10^{-3} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
+<inserted text> 
+                $
+l.26 {1-3} &    \textbf{$f_0$} &  1.30\times
+                                             10^{-3} &    1.50\times 10^{-3} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
+<inserted text> 
+                $
+l.26 ...    \textbf{$f_0$} &  1.30\times 10^{-3} &
+                                                      1.50\times 10^{-3} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
+<inserted text> 
+                $
+l.26 ..._0$} &  1.30\times 10^{-3} &    1.50\times
+                                                   10^{-3} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/PARAMETER_SPACE_ALL.tex:27: Missing $ inserted.
+<inserted text> 
+                $
+l.27 {
+      1} &    \textbf{$m$} &  0 &  800 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [9] [10] [11] [12] (../TABLES/L12.tex) [13]
+<../FIGURES//DOE_FLOWCHART.png, id=221, 456.20438pt x 754.31813pt>
+File: ../FIGURES//DOE_FLOWCHART.png Graphic file (type png)
+<use ../FIGURES//DOE_FLOWCHART.png>
+Package pdftex.def Info: ../FIGURES//DOE_FLOWCHART.png  used on input line 388.
+
+(pdftex.def)             Requested size: 265.37836pt x 438.79395pt.
+ [14] [15 <../FIGURES//DOE_FLOWCHART.png>]
+<../FIGURES//BO_FLOWCHART.png, id=237, 346.29375pt x 581.92406pt>
+File: ../FIGURES//BO_FLOWCHART.png Graphic file (type png)
+<use ../FIGURES//BO_FLOWCHART.png>
+Package pdftex.def Info: ../FIGURES//BO_FLOWCHART.png  used on input line 409.
+(pdftex.def)             Requested size: 261.1305pt x 438.81277pt.
+<../FIGURES//EXPERIMENTAL_RESULTS.png, id=239, 408.5664pt x 392.1852pt>
+File: ../FIGURES//EXPERIMENTAL_RESULTS.png Graphic file (type png)
+<use ../FIGURES//EXPERIMENTAL_RESULTS.png>
+Package pdftex.def Info: ../FIGURES//EXPERIMENTAL_RESULTS.png  used on input li
+ne 423.
+(pdftex.def)             Requested size: 228.56496pt x 219.40079pt.
+ [16 <../FIGURES//BO_FLOWCHART.png>] [17 <../FIGURES//EXPERIMENTAL_RESULTS.png>
+]
+<../FIGURES//SECOND_DERIV.png, id=253, 417.7206pt x 392.1852pt>
+File: ../FIGURES//SECOND_DERIV.png Graphic file (type png)
+<use ../FIGURES//SECOND_DERIV.png>
+Package pdftex.def Info: ../FIGURES//SECOND_DERIV.png  used on input line 445.
+(pdftex.def)             Requested size: 233.6861pt x 219.40079pt.
+<../FIGURES//ABAQUS_SLOPE_COMPARISON.png, id=255, 410.9754pt x 392.1852pt>
+File: ../FIGURES//ABAQUS_SLOPE_COMPARISON.png Graphic file (type png)
+<use ../FIGURES//ABAQUS_SLOPE_COMPARISON.png>
+Package pdftex.def Info: ../FIGURES//ABAQUS_SLOPE_COMPARISON.png  used on input
+ line 460.
+(pdftex.def)             Requested size: 229.91263pt x 219.40079pt.
+ [18 <../FIGURES//SECOND_DERIV.png>]
+<../FIGURES//MODEL_3D_2D.png, id=267, 1249.66875pt x 807.015pt>
+File: ../FIGURES//MODEL_3D_2D.png Graphic file (type png)
+<use ../FIGURES//MODEL_3D_2D.png>
+Package pdftex.def Info: ../FIGURES//MODEL_3D_2D.png  used on input line 481.
+(pdftex.def)             Requested size: 389.98662pt x 251.84677pt.
+ [19] [20 <../FIGURES//ABAQUS_SLOPE_COMPARISON.png>] [21 <../FIGURES//MODEL_3D_
+2D.png>]
+<../FIGURES//P91_20_2_FASTEST_ITERATION.png, id=292, 408.5664pt x 392.1852pt>
+File: ../FIGURES//P91_20_2_FASTEST_ITERATION.png Graphic file (type png)
+<use ../FIGURES//P91_20_2_FASTEST_ITERATION.png>
+Package pdftex.def Info: ../FIGURES//P91_20_2_FASTEST_ITERATION.png  used on in
+put line 517.
+(pdftex.def)             Requested size: 194.99995pt x 187.18155pt.
+<../FIGURES//P91_20_1_FASTEST_ITERATION.png, id=293, 408.5664pt x 392.1852pt>
+File: ../FIGURES//P91_20_1_FASTEST_ITERATION.png Graphic file (type png)
+<use ../FIGURES//P91_20_1_FASTEST_ITERATION.png>
+Package pdftex.def Info: ../FIGURES//P91_20_1_FASTEST_ITERATION.png  used on in
+put line 524.
+(pdftex.def)             Requested size: 194.99995pt x 187.18155pt.
+<../FIGURES//P91_500_FASTEST_ITERATION.png, id=294, 408.5664pt x 392.1852pt>
+File: ../FIGURES//P91_500_FASTEST_ITERATION.png Graphic file (type png)
+<use ../FIGURES//P91_500_FASTEST_ITERATION.png>
+Package pdftex.def Info: ../FIGURES//P91_500_FASTEST_ITERATION.png  used on inp
+ut line 531.
+(pdftex.def)             Requested size: 194.99995pt x 187.18155pt.
+
+Overfull \hbox (10.91263pt too wide) in paragraph at lines 515--534
+[][]   []
+ []
+
+(../TABLES/BO_PARAMETER_VALUES.tex
+../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 \textbf{$q_2$} &    9.952\times
+                                    10^{-1} &    9.667\times10^{-1} &    9.6...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 \textbf{$q_2$} &    9.952\times10^{-1} &
+                                                 9.667\times10^{-1} &    9.6...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 ...} &    9.952\times10^{-1} &    9.667\times
+                                                  10^{-1} &    9.699\times10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 ...952\times10^{-1} &    9.667\times10^{-1} &
+                                                      9.699\times10^{-1} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 ...} &    9.667\times10^{-1} &    9.699\times
+                                                  10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:29: Missing $ inserted.
+<inserted text> 
+                $
+l.29 \textbf
+            {$q_3$} &    2.295 &    1.407 &    2.001 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 \textbf{$\epsilon_N$} &    2.900\times
+                                           10^{-1} &    3.467\times10^{-1} &...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...bf{$\epsilon_N$} &    2.900\times10^{-1} &
+                                                      3.467\times10^{-1} &  ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...} &    2.900\times10^{-1} &    3.467\times
+                                                  10^{-1} &    3.720\times10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...900\times10^{-1} &    3.467\times10^{-1} &
+                                                      3.720\times10^{-1} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...} &    3.467\times10^{-1} &    3.720\times
+                                                  10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 \textbf
+            {$s_N$} &    1.671\times10^{-1} &    1.856\times10^{-1} &    1.2...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 \textbf{$s_N$} &    1.671\times
+                                    10^{-1} &    1.856\times10^{-1} &    1.2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 \textbf{$s_N$} &    1.671\times10^{-1} &
+                                                 1.856\times10^{-1} &    1.2...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...} &    1.671\times10^{-1} &    1.856\times
+                                                  10^{-1} &    1.214\times10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...671\times10^{-1} &    1.856\times10^{-1} &
+                                                      1.214\times10^{-1} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...} &    1.856\times10^{-1} &    1.214\times
+                                                  10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 \textbf
+            {$f_N$} &    3.869\times10^{-2} &    8.481\times10^{-2} &    4.7...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 \textbf{$f_N$} &    3.869\times
+                                    10^{-2} &    8.481\times10^{-2} &    4.7...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 \textbf{$f_N$} &    3.869\times10^{-2} &
+                                                 8.481\times10^{-2} &    4.7...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...} &    3.869\times10^{-2} &    8.481\times
+                                                  10^{-2} &    4.706\times10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...869\times10^{-2} &    8.481\times10^{-2} &
+                                                      4.706\times10^{-2} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...} &    8.481\times10^{-2} &    4.706\times
+                                                  10^{-2} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 \textbf
+            {$f_0$} &    1.370 \times 10^{-3} &    1.340 \times 10^{-3} &   ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 \textbf{$f_0$} &    1.370 \times
+                                      10^{-3} &    1.340 \times 10^{-3} &   ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 \textbf{$f_0$} &    1.370 \times 10^{-3} &
+                                                   1.340 \times 10^{-3} &   ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...    1.370 \times 10^{-3} &    1.340 \times
+                                                   10^{-3} &    1.310 \times...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...\times 10^{-3} &    1.340 \times 10^{-3} &
+                                                      1.310 \times 10^{ -3} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...    1.340 \times 10^{-3} &    1.310 \times
+                                                   10^{ -3} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/BO_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \textbf
+            {$m$} &  534.1 &  725.4 &  421.4 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [22] [23 <../FIGURES//P91_20_2_FASTEST_ITERATION.png> <../FIGURES//P91_20_1_F
+ASTEST_ITERATION.png> <../FIGURES//P91_500_FASTEST_ITERATION.png>] [24]
+<../FIGURES//HYPERPARAMETERS.png, id=332, 408.5664pt x 392.1852pt>
+File: ../FIGURES//HYPERPARAMETERS.png Graphic file (type png)
+<use ../FIGURES//HYPERPARAMETERS.png>
+Package pdftex.def Info: ../FIGURES//HYPERPARAMETERS.png  used on input line 57
+0.
+(pdftex.def)             Requested size: 228.56496pt x 219.40079pt.
+
+(../TABLES/HYPER_PARAMETER_VALUES.tex
+../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
+<inserted text> 
+                $
+l.29 \textbf{$q_2$} & 9.952\times
+                                 10^{-1} & 1.021 & 9.547\times10^{-1} & 1.03...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
+<inserted text> 
+                $
+l.29 \textbf{$q_2$} & 9.952\times10^{-1} &
+                                           1.021 & 9.547\times10^{-1} & 1.03...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...& 9.952\times10^{-1} & 1.021 & 9.547\times
+                                                  10^{-1} & 1.037 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...imes10^{-1} & 1.021 & 9.547\times10^{-1} &
+                                                   1.037 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 \textbf{$\epsilon_N$} & 2.900\times
+                                        10^{-2} & 3.598\times10^{-1} & 3.519...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 \textbf{$\epsilon_N$} & 2.900\times10^{-2} &
+                                                  3.598\times10^{-1} & 3.519...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...lon_N$} & 2.900\times10^{-2} & 3.598\times
+                                                  10^{-1} & 3.519\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ... 2.900\times10^{-2} & 3.598\times10^{-1} &
+                                                   3.519\times10^{-1} & 3.33...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...10^{-2} & 3.598\times10^{-1} & 3.519\times
+                                                  10^{-1} & 3.331\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ... 3.598\times10^{-1} & 3.519\times10^{-1} &
+                                                   3.331\times10^{-1} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 ...10^{-1} & 3.519\times10^{-1} & 3.331\times
+                                                  10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 \textbf
+            {$s_N$} & 1.671\times10^{-1} & 1.580\times10^{-1} & 1.001\times1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 \textbf{$s_N$} & 1.671\times
+                                 10^{-1} & 1.580\times10^{-1} & 1.001\times1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 \textbf{$s_N$} & 1.671\times10^{-1} &
+                                           1.580\times10^{-1} & 1.001\times1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...{$s_N$} & 1.671\times10^{-1} & 1.580\times
+                                                  10^{-1} & 1.001\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ... 1.671\times10^{-1} & 1.580\times10^{-1} &
+                                                   1.001\times10^{-1} & 1.23...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...10^{-1} & 1.580\times10^{-1} & 1.001\times
+                                                  10^{-1} & 1.234\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ... 1.580\times10^{-1} & 1.001\times10^{-1} &
+                                                   1.234\times10^{-1} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...10^{-1} & 1.001\times10^{-1} & 1.234\times
+                                                  10^{-1} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 \textbf
+            {$f_N$} & 3.869\times10^{-2} & 5.769\times10^{-2} & 3.086\times1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 \textbf{$f_N$} & 3.869\times
+                                 10^{-2} & 5.769\times10^{-2} & 3.086\times1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 \textbf{$f_N$} & 3.869\times10^{-2} &
+                                           5.769\times10^{-2} & 3.086\times1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...{$f_N$} & 3.869\times10^{-2} & 5.769\times
+                                                  10^{-2} & 3.086\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ... 3.869\times10^{-2} & 5.769\times10^{-2} &
+                                                   3.086\times10^{-2} & 7.59...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...10^{-2} & 5.769\times10^{-2} & 3.086\times
+                                                  10^{-2} & 7.594\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ... 5.769\times10^{-2} & 3.086\times10^{-2} &
+                                                   7.594\times10^{-2} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...10^{-2} & 3.086\times10^{-2} & 7.594\times
+                                                  10^{-2} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \textbf
+            {$f_0$} & 1.370\times10^{-3} & 1.431\times10^{-3} & 1.412\times1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \textbf{$f_0$} & 1.370\times
+                                 10^{-3} & 1.431\times10^{-3} & 1.412\times1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \textbf{$f_0$} & 1.370\times10^{-3} &
+                                           1.431\times10^{-3} & 1.412\times1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 ...{$f_0$} & 1.370\times10^{-3} & 1.431\times
+                                                  10^{-3} & 1.412\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 ... 1.370\times10^{-3} & 1.431\times10^{-3} &
+                                                   1.412\times10^{-3} & 1.30...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 ...10^{-3} & 1.431\times10^{-3} & 1.412\times
+                                                  10^{-3} & 1.309\times10^{-...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 ... 1.431\times10^{-3} & 1.412\times10^{-3} &
+                                                   1.309\times10^{-3} \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 ...10^{-3} & 1.412\times10^{-3} & 1.309\times
+                                                  10^{-3} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+../TABLES/HYPER_PARAMETER_VALUES.tex:35: Missing $ inserted.
+<inserted text> 
+                $
+l.35 \textbf
+            {$m$}   & 534.1 & 542.8 & 514.5 & 621.9 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+Overfull \hbox (4.30424pt too wide) in paragraph at lines 578--581
+[]\OT1/cmr/m/n/12 Figure [][]9[][] shows that ex-cel-lent agree-ment with ex-pe
+r-i-men-tal data is achieved
+ []
+
+[25] [26 <../FIGURES//HYPERPARAMETERS.png>] [27]
+
+Package natbib Warning: Citation `BROCKS1995' on page 28 undefined on input lin
+e 609.
+
+[28] [29]
+Overfull \hbox (15.7194pt too wide) in paragraph at lines 636--640
+[]\OT1/cmr/m/n/12 This work was funded by the Eu-ro-pean Union through the Mari
+e Sk lowodska-
+ []
+
+(C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.bbl
+[30]
+Underfull \hbox (badness 1577) in paragraph at lines 41--50
+\OT1/cmr/m/n/12 A novel method to uniquely de-ter-mine the pa-ram-e-ters in Gur
+-
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 106--111
+[]\OT1/cmr/m/n/12 F. Ghavamian,  Ac-cel-er-at-ing fi-nite el-e-ment anal-y-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--111
+\OT1/cmr/m/n/12 sis us-ing ma-chine learn-ing (2021). doi:[][]$\OT1/cmtt/m/n/12
+ 10 . 4233 / uuid :
+ []
+
+[32] [33] [34] [35] [36])
+
+Package natbib Warning: There were undefined citations.
+
+\Changes@OutFile=\write5
+\openout5 = `document.soc'.
+
+\tf@loc=\write6
+\openout6 = `document.loc'.
+
+[37] (C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 29697 strings out of 478582
+ 601069 string characters out of 2840096
+ 817056 words of memory out of 3000000
+ 47210 multiletter control sequences out of 15000+600000
+ 484878 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 114i,10n,117p,515b,957s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\alison.oconnor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\tcrm1200.pk><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alison.oconnor/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/alison.oconnor/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
+s/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alison.oconnor/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alison.oc
+onnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/alison.oconnor/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/al
+ison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmti7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/alison.oconnor/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\OUT\doc
+ument.pdf (38 pages, 1482259 bytes).
+PDF statistics:
+ 561 PDF objects out of 1000 (max. 8388607)
+ 127 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+

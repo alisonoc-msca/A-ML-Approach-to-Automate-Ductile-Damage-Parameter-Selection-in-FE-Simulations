@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: document.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: elsarticle-num-names.bst
+Database file #1: BO_PAPER.bib
+Warning--to sort, need author or key in ENISO6892
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty pages in SNOEK2012
+Warning--empty journal in GHAVAMIAN2021
+Warning--empty pages in FRALEY2020
+Warning--missing institution in ROUSSELIER2019
+Warning--empty booktitle in OCONNOR2018
+You've used 41 entries,
+            2918 wiz_defined-function locations,
+            943 strings with 15243 characters,
+and the built_in function-call counts, 28199 in all, are:
+= -- 2071
+> -- 1234
+< -- 24
++ -- 475
+- -- 420
+* -- 3377
+:= -- 3997
+add.period$ -- 74
+call.type$ -- 41
+change.case$ -- 342
+chr.to.int$ -- 41
+cite$ -- 49
+duplicate$ -- 2070
+empty$ -- 2000
+format.name$ -- 543
+if$ -- 5223
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 418
+newline$ -- 203
+num.names$ -- 162
+pop$ -- 729
+preamble$ -- 1
+purify$ -- 344
+quote$ -- 0
+skip$ -- 522
+stack$ -- 0
+substring$ -- 1160
+swap$ -- 1559
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 360
+warning$ -- 6
+while$ -- 174
+width$ -- 0
+write$ -- 571
+(There were 6 warnings)
