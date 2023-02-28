@@ -1,0 +1,8 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  names: AN O'Connor, PG Mongan, NP O'Dowd
+    orcid: https://orcid.org/0000-0002-8331-2901, https://orcid.org/0000-0002-2846-7839, https://orcid.org/0000-0001-5717-8561
+title: alisonoc/A-ML-Approach-to-Automate-Ductile-Damage-Parameter-Selection-in-FE-Simulations: A Machine Learning Approach to Automate Ductile Damage Parameter Selection in Finite Element Simulations
+version: v1.0.0
+date-released: 2023-02-28
