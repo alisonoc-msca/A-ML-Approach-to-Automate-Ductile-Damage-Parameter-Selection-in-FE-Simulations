@@ -3,7 +3,7 @@
 The aim of this project was to use Bayesian Optimisation (BO) to automate the selection of ductile damage parameter values based on the resulting fit between experimental test data and simulated Finite Element (FE) data.
 The FE solver used for this project is Abaqus 2021.
 The predominate coding language is Python V3.9 though some code, specifically FE model building and postprocessing, are written in Python V2.7.
-This code is archieved at: https://zenodo.org/record/7686217#.Y_5orXZ_qUk
+This code (v1.0.0) is archived at: https://zenodo.org/record/7686217#.Y_5orXZ_qUk
 
 **Paper abstract:**
 A key limitation of finite element analysis is accurate modelling of material damage.
