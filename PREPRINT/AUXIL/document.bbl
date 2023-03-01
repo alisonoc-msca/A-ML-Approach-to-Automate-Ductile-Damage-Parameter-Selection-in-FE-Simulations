@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{39}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -222,12 +222,6 @@
 \newblock \bibinfo{journal}{Proceedings of the IEEE} \bibinfo{volume}{104}
   (\bibinfo{year}{2016}) \bibinfo{pages}{148--175}.
   \DOIprefix\doi{10.1109/JPROC.2015.2494218}.
-%Type = Book
-\bibitem[{Rasmussen and Williams(2006)}]{RASMUSSEN2006}
-\bibinfo{author}{C.~E. Rasmussen}, \bibinfo{author}{C.~K.~I. Williams},
-  \bibinfo{title}{Gaussian Processes for Machine Learning}, Adaptive
-  Computation and Machine Learning, \bibinfo{publisher}{{MIT Press}},
-  \bibinfo{address}{{Cambridge, Mass}}, \bibinfo{year}{2006}.
 %Type = Incollection
 \bibitem[{Rasmussen(2004)}]{RASMUSSEN2004}
 \bibinfo{author}{C.~E. Rasmussen},
@@ -241,11 +235,12 @@
   \bibinfo{publisher}{{Springer}}, \bibinfo{address}{{Berlin, Heidelberg}},
   \bibinfo{year}{2004}, pp. \bibinfo{pages}{63--71}.
   \DOIprefix\doi{10.1007/978-3-540-28650-9_4}.
-%Type = Misc
-\bibitem[{Wang(2022)}]{WANG2022}
-\bibinfo{author}{J.~Wang}, \bibinfo{title}{An {{Intuitive Tutorial}} to
-  {{Gaussian Processes Regression}}}, \bibinfo{year}{2022}.
-  \href{http://arxiv.org/abs/2009.10862}{{\tt arXiv:2009.10862}}.
+%Type = Book
+\bibitem[{Rasmussen and Williams(2006)}]{RASMUSSEN2006}
+\bibinfo{author}{C.~E. Rasmussen}, \bibinfo{author}{C.~K.~I. Williams},
+  \bibinfo{title}{Gaussian Processes for Machine Learning}, Adaptive
+  Computation and Machine Learning, \bibinfo{publisher}{{MIT Press}},
+  \bibinfo{address}{{Cambridge, Mass}}, \bibinfo{year}{2006}.
 %Type = Article
 \bibitem[{Zhu et~al.(1997)Zhu, Byrd, Lu, and Nocedal}]{ZHU1997}
 \bibinfo{author}{C.~Zhu}, \bibinfo{author}{R.~H. Byrd},
@@ -358,18 +353,6 @@
 \newblock \bibinfo{journal}{International Journal of Fracture}
   \bibinfo{volume}{17} (\bibinfo{year}{1981}) \bibinfo{pages}{389--407}.
   \DOIprefix\doi{10.1007/BF00036191}.
-%Type = Incollection
-\bibitem[{Brocks et~al.(1995)Brocks, Klingbeil, K{\"u}necke, and
-  Sun}]{BROCKS1995}
-\bibinfo{author}{W.~Brocks}, \bibinfo{author}{D.~Klingbeil},
-  \bibinfo{author}{G.~K{\"u}necke}, \bibinfo{author}{D.-Z. Sun},
-\newblock \bibinfo{title}{Application of the {{Gurson Model}} to {{Ductile
-  Tearing Resistance}}},
-\newblock in: \bibinfo{editor}{A.~Bakker} (Ed.), \bibinfo{booktitle}{Constraint
-  {{Effects}} in {{Fracture Theory}} and {{Applicatons}}: {{Second Volume}}},
-  \bibinfo{publisher}{{ASTM International}}, \bibinfo{address}{{West
-  Conshohocken, PA}}, \bibinfo{year}{1995}, pp. \bibinfo{pages}{232--252}.
-  \DOIprefix\doi{10.1520/STP14638S}.
 %Type = Misc
 \bibitem[{O'Connor et~al.(2023)O'Connor, Mongan, and O'Dowd}]{OCONNOR2023}
 \bibinfo{author}{A.~O'Connor}, \bibinfo{author}{P.~Mongan},

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  1 MAR 2023 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  1 MAR 2023 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1097,20 +1097,6 @@ Package array Warning: Redefining primitive column b on input line 74.
 
 Package array Warning: Redefining primitive column m on input line 76.
 
-
-(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.st
-y
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks49
-\SOUL@lasttoken=\toks50
-\SOUL@cmds=\toks51
-\SOUL@buffer=\toks52
-\SOUL@token=\toks53
-\SOUL@spaceskip=\skip73
-\SOUL@ttwidth=\dimen328
-\SOUL@uldp=\dimen329
-\SOUL@ulht=\dimen330
-)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 85.
 
@@ -1141,22 +1127,31 @@ LaTeX Font Info:    ... okay on input line 85.
 pp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count364
-\scratchdimen=\dimen331
+\scratchdimen=\dimen328
 \scratchbox=\box138
 \nofMPsegments=\count365
 \nofMParguments=\count366
-\everyMPshowfont=\toks54
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count367
-\MPscratchDim=\dimen332
+\MPscratchDim=\dimen329
 \MPnumerator=\count368
 \makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks55
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
 pstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.
+sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epsto
 pdf-sys.cfg
@@ -1240,19 +1235,19 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 120.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cnotenum' on input line 120.
+(hyperref)                removing `\cnotenum' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 120.
+(hyperref)                removing `\<def>-command' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@corref' on input line 120.
+(hyperref)                removing `\@corref' on input line 124.
 
 [1
 
@@ -1266,95 +1261,87 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 
+l.145 
        [1
 
 
 ] [2]
-<../FIGURES//DIAGRAM_ENG_SS.png, id=71, 370.2633pt x 368.577pt>
-File: ../FIGURES//DIAGRAM_ENG_SS.png Graphic file (type png)
-<use ../FIGURES//DIAGRAM_ENG_SS.png>
-Package pdftex.def Info: ../FIGURES//DIAGRAM_ENG_SS.png  used on input line 156
-.
+<DIAGRAM_ENG_SS.png, id=71, 370.2633pt x 368.577pt>
+File: DIAGRAM_ENG_SS.png Graphic file (type png)
+<use DIAGRAM_ENG_SS.png>
+Package pdftex.def Info: DIAGRAM_ENG_SS.png  used on input line 160.
 (pdftex.def)             Requested size: 220.40826pt x 219.40445pt.
- [3] [4 <../FIGURES//DIAGRAM_ENG_SS.png>] [5] [6] [7]
-(../TABLES/PARAMETER_SPACE_ALL.tex) [8] [9] [10] (../TABLES/L12.tex)
-<../FIGURES//DOE_FLOWCHART.png, id=198, 453.94594pt x 748.29562pt>
-File: ../FIGURES//DOE_FLOWCHART.png Graphic file (type png)
-<use ../FIGURES//DOE_FLOWCHART.png>
-Package pdftex.def Info: ../FIGURES//DOE_FLOWCHART.png  used on input line 332.
-
+ [3] [4 <./DIAGRAM_ENG_SS.png>] [5] [6] [7]
+(PARAMETER_SPACE_ALL.tex) [8] [9] [10] (L12.tex)
+<DOE_FLOWCHART.png, id=198, 453.94594pt x 748.29562pt>
+File: DOE_FLOWCHART.png Graphic file (type png)
+<use DOE_FLOWCHART.png>
+Package pdftex.def Info: DOE_FLOWCHART.png  used on input line 336.
 (pdftex.def)             Requested size: 266.19801pt x 438.80734pt.
- [11]
-[12 <../FIGURES//DOE_FLOWCHART.png>]
-<../FIGURES//BO_FLOWCHART.png, id=219, 346.29375pt x 581.92406pt>
-File: ../FIGURES//BO_FLOWCHART.png Graphic file (type png)
-<use ../FIGURES//BO_FLOWCHART.png>
-Package pdftex.def Info: ../FIGURES//BO_FLOWCHART.png  used on input line 351.
+ [11] [12 <./DOE_FLOWCHART.png>]
+<BO_FLOWCHART.png, id=219, 346.29375pt x 581.92406pt>
+File: BO_FLOWCHART.png Graphic file (type png)
+<use BO_FLOWCHART.png>
+Package pdftex.def Info: BO_FLOWCHART.png  used on input line 355.
 (pdftex.def)             Requested size: 261.1305pt x 438.81277pt.
  [13]
-<../FIGURES//EXPERIMENTAL_RESULTS.png, id=225, 408.5664pt x 392.1852pt>
-File: ../FIGURES//EXPERIMENTAL_RESULTS.png Graphic file (type png)
-<use ../FIGURES//EXPERIMENTAL_RESULTS.png>
-Package pdftex.def Info: ../FIGURES//EXPERIMENTAL_RESULTS.png  used on input li
-ne 365.
+<EXPERIMENTAL_RESULTS.png, id=225, 408.5664pt x 392.1852pt>
+File: EXPERIMENTAL_RESULTS.png Graphic file (type png)
+<use EXPERIMENTAL_RESULTS.png>
+Package pdftex.def Info: EXPERIMENTAL_RESULTS.png  used on input line 369.
 (pdftex.def)             Requested size: 228.56496pt x 219.40079pt.
- [14 <../FIGURES//BO_FLOWCHART.png>]
-<../FIGURES//SECOND_DERIV.png, id=233, 417.7206pt x 392.1852pt>
-File: ../FIGURES//SECOND_DERIV.png Graphic file (type png)
-<use ../FIGURES//SECOND_DERIV.png>
-Package pdftex.def Info: ../FIGURES//SECOND_DERIV.png  used on input line 379.
+ [14 <./BO_FLOWCHART.png>]
+<SECOND_DERIV.png, id=233, 417.7206pt x 392.1852pt>
+File: SECOND_DERIV.png Graphic file (type png)
+<use SECOND_DERIV.png>
+Package pdftex.def Info: SECOND_DERIV.png  used on input line 383.
 (pdftex.def)             Requested size: 233.6861pt x 219.40079pt.
-
-[15 <../FIGURES//EXPERIMENTAL_RESULTS.png>]
-<../FIGURES//ABAQUS_SLOPE_COMPARISON.png, id=244, 410.9754pt x 392.1852pt>
-File: ../FIGURES//ABAQUS_SLOPE_COMPARISON.png Graphic file (type png)
-<use ../FIGURES//ABAQUS_SLOPE_COMPARISON.png>
-Package pdftex.def Info: ../FIGURES//ABAQUS_SLOPE_COMPARISON.png  used on input
- line 391.
+ [15 <./EXPERIMENTAL_RESULTS.png>]
+<ABAQUS_SLOPE_COMPARISON.png, id=244, 410.9754pt x 392.1852pt>
+File: ABAQUS_SLOPE_COMPARISON.png Graphic file (type png)
+<use ABAQUS_SLOPE_COMPARISON.png>
+Package pdftex.def Info: ABAQUS_SLOPE_COMPARISON.png  used on input line 395.
 (pdftex.def)             Requested size: 229.91263pt x 219.40079pt.
- [16 <../FIGURES//SECOND_DERIV.png>]
-<../FIGURES//MODEL_3D_2D.png, id=257, 825.0825pt x 540.51938pt>
-File: ../FIGURES//MODEL_3D_2D.png Graphic file (type png)
-<use ../FIGURES//MODEL_3D_2D.png>
-Package pdftex.def Info: ../FIGURES//MODEL_3D_2D.png  used on input line 411.
+ [16 <./SECOND_DERIV.png>]
+<MODEL_3D_2D.png, id=257, 825.0825pt x 540.51938pt>
+File: MODEL_3D_2D.png Graphic file (type png)
+<use MODEL_3D_2D.png>
+Package pdftex.def Info: MODEL_3D_2D.png  used on input line 415.
 (pdftex.def)             Requested size: 390.00462pt x 255.49573pt.
-[17 <../FIGURES//ABAQUS_SLOPE_COMPARISON.png>] [18 <../FIGURES//MODEL_3D_2D.png
->]
-<../FIGURES//P91_20_2_FASTEST_ITERATION.png, id=278, 408.5664pt x 392.1852pt>
-File: ../FIGURES//P91_20_2_FASTEST_ITERATION.png Graphic file (type png)
-<use ../FIGURES//P91_20_2_FASTEST_ITERATION.png>
-Package pdftex.def Info: ../FIGURES//P91_20_2_FASTEST_ITERATION.png  used on in
-put line 437.
+ [17 <./ABAQUS_SLOPE_COMPARISON.png>] [18 <./MODEL_3D_2D.png>]
+<P91_20_2_FASTEST_ITERATION.png, id=278, 408.5664pt x 392.1852pt>
+File: P91_20_2_FASTEST_ITERATION.png Graphic file (type png)
+<use P91_20_2_FASTEST_ITERATION.png>
+Package pdftex.def Info: P91_20_2_FASTEST_ITERATION.png  used on input line 441
+.
 (pdftex.def)             Requested size: 194.99995pt x 187.18155pt.
-<../FIGURES//P91_20_1_FASTEST_ITERATION.png, id=279, 408.5664pt x 392.1852pt>
-File: ../FIGURES//P91_20_1_FASTEST_ITERATION.png Graphic file (type png)
-<use ../FIGURES//P91_20_1_FASTEST_ITERATION.png>
-Package pdftex.def Info: ../FIGURES//P91_20_1_FASTEST_ITERATION.png  used on in
-put line 444.
+<P91_20_1_FASTEST_ITERATION.png, id=279, 408.5664pt x 392.1852pt>
+File: P91_20_1_FASTEST_ITERATION.png Graphic file (type png)
+<use P91_20_1_FASTEST_ITERATION.png>
+Package pdftex.def Info: P91_20_1_FASTEST_ITERATION.png  used on input line 448
+.
 (pdftex.def)             Requested size: 194.99995pt x 187.18155pt.
-<../FIGURES//P91_500_FASTEST_ITERATION.png, id=280, 408.5664pt x 392.1852pt>
-File: ../FIGURES//P91_500_FASTEST_ITERATION.png Graphic file (type png)
-<use ../FIGURES//P91_500_FASTEST_ITERATION.png>
-Package pdftex.def Info: ../FIGURES//P91_500_FASTEST_ITERATION.png  used on inp
-ut line 451.
+<P91_500_FASTEST_ITERATION.png, id=280, 408.5664pt x 392.1852pt>
+File: P91_500_FASTEST_ITERATION.png Graphic file (type png)
+<use P91_500_FASTEST_ITERATION.png>
+Package pdftex.def Info: P91_500_FASTEST_ITERATION.png  used on input line 455.
+
 (pdftex.def)             Requested size: 194.99995pt x 187.18155pt.
 
-Overfull \hbox (10.91263pt too wide) in paragraph at lines 435--454
+Overfull \hbox (10.91263pt too wide) in paragraph at lines 439--458
 [][]   []
  []
 
-(../TABLES/BO_PARAMETER_VALUES.tex) [19] [20 <../FIGURES//P91_20_2_FASTEST_ITER
-ATION.png> <../FIGURES//P91_20_1_FASTEST_ITERATION.png> <../FIGURES//P91_500_FA
-STEST_ITERATION.png>] [21]
-<../FIGURES//HYPERPARAMETERS.png, id=317, 408.5664pt x 392.1852pt>
-File: ../FIGURES//HYPERPARAMETERS.png Graphic file (type png)
-<use ../FIGURES//HYPERPARAMETERS.png>
-Package pdftex.def Info: ../FIGURES//HYPERPARAMETERS.png  used on input line 48
-8.
+(BO_PARAMETER_VALUES.tex) [19] [20 <./P91_20_2_FASTEST_ITERATION.png> <./P91_20
+_1_FASTEST_ITERATION.png> <./P91_500_FASTEST_ITERATION.png>] [21]
+<HYPERPARAMETERS.png, id=317, 408.5664pt x 392.1852pt>
+File: HYPERPARAMETERS.png Graphic file (type png)
+<use HYPERPARAMETERS.png>
+Package pdftex.def Info: HYPERPARAMETERS.png  used on input line 492.
 (pdftex.def)             Requested size: 228.56496pt x 219.40079pt.
- (../TABLES/HYPER_PARAMETER_VALUES.tex
-../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
+
+(HYPER_PARAMETER_VALUES.tex
+HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
 <inserted text> 
                 $
 l.29 ...f{$q_2$} & $9.952\times10^{-1}$ & $1.021 &
@@ -1365,7 +1352,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
+HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
 <inserted text> 
                 $
 l.29 ...9.952\times10^{-1}$ & $1.021 & 9.547\times
@@ -1373,8 +1360,8 @@ l.29 ...9.952\times10^{-1}$ & $1.021 & 9.547\times
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-) [22] [23 <../FIGURES//HYPERPARAMETERS.png>] [24]
-Overfull \hbox (15.7194pt too wide) in paragraph at lines 520--524
+) [22] [23 <./HYPERPARAMETERS.png>] [24]
+Overfull \hbox (15.7194pt too wide) in paragraph at lines 524--528
 []\OT1/cmr/m/n/12 This work was funded by the Eu-ro-pean Union through the Mari
 e Sk lowodska-
  []
@@ -1400,24 +1387,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--112
  10 . 4233 / uuid :
  []
 
-[27] [28] [29] [30] [31] [32])
+[27] [28] [29] [30] [31])
 \Changes@OutFile=\write5
 \openout5 = `document.soc'.
 
 \tf@loc=\write6
 \openout6 = `document.loc'.
 
- [33]
+ [32]
 (C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Automate-Ductile-Dama
 ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.aux) ) 
 Here is how much of TeX's memory you used:
- 29692 strings out of 478582
- 602408 string characters out of 2840096
- 816041 words of memory out of 3000000
- 47209 multiletter control sequences out of 15000+600000
- 484878 words of font info for 87 fonts, out of 8000000 for 9000
+ 29524 strings out of 478582
+ 599296 string characters out of 2840096
+ 813064 words of memory out of 3000000
+ 47050 multiletter control sequences out of 15000+600000
+ 484565 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,10n,117p,515b,963s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 114i,10n,117p,515b,948s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Use
 rs\alison.oconnor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/publi
@@ -1442,9 +1429,9 @@ cm/cmti7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1
 MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Auto
 mate-Ductile-Damage-Parameter-Selection-in-FE-Simulations\PREPRINT\OUT\document
-.pdf (34 pages, 1408877 bytes).
+.pdf (33 pages, 1406889 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

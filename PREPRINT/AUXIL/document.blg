@@ -11,45 +11,45 @@ Warning--empty pages in SNOEK2012
 Warning--empty journal in GHAVAMIAN2021
 Warning--empty pages in FRALEY2020
 Warning--missing institution in ROUSSELIER2019
-You've used 41 entries,
+You've used 39 entries,
             2918 wiz_defined-function locations,
-            946 strings with 15350 characters,
-and the built_in function-call counts, 28279 in all, are:
-= -- 2064
-> -- 1246
-< -- 24
-+ -- 479
-- -- 424
-* -- 3416
-:= -- 4019
-add.period$ -- 74
-call.type$ -- 41
-change.case$ -- 345
-chr.to.int$ -- 41
-cite$ -- 48
-duplicate$ -- 2067
-empty$ -- 2010
-format.name$ -- 547
-if$ -- 5219
+            928 strings with 14918 characters,
+and the built_in function-call counts, 26931 in all, are:
+= -- 1964
+> -- 1197
+< -- 22
++ -- 459
+- -- 408
+* -- 3268
+:= -- 3832
+add.period$ -- 70
+call.type$ -- 39
+change.case$ -- 328
+chr.to.int$ -- 39
+cite$ -- 46
+duplicate$ -- 1960
+empty$ -- 1907
+format.name$ -- 527
+if$ -- 4961
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 420
-newline$ -- 203
-num.names$ -- 164
-pop$ -- 727
+missing$ -- 402
+newline$ -- 195
+num.names$ -- 154
+pop$ -- 692
 preamble$ -- 1
-purify$ -- 345
+purify$ -- 330
 quote$ -- 0
-skip$ -- 500
+skip$ -- 465
 stack$ -- 0
-substring$ -- 1170
-swap$ -- 1562
-text.length$ -- 7
+substring$ -- 1112
+swap$ -- 1486
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 360
+type$ -- 342
 warning$ -- 5
-while$ -- 177
+while$ -- 167
 width$ -- 0
-write$ -- 572
+write$ -- 545
 (There were 5 warnings)

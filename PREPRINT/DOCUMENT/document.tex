@@ -68,13 +68,13 @@
 \usepackage[markup=underlined]{changes}
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \usepackage{graphicx}
-\graphicspath{{../../RESULTS/}{../FIGURES/}}
+%\graphicspath{{../../RESULTS/}{../FIGURES/}}
 \renewcommand{\floatpagefraction}{.8}%
 %%COLUMN WIDTHS FOR TABLES
 \newcolumntype{b}{X}
 \newcolumntype{s}{>{\hsize=.2\hsize}X}
 \newcolumntype{m}{>{\hsize=.5\hsize}X}
-\usepackage{soul}
+%\usepackage{soul}
 %%%FORMATTING
 \widowpenalty10000
 \clubpenalty10000
@@ -244,7 +244,7 @@
 	The parameter space of the current problem is defined in Table~\ref{tab:parameter_space_all} for the GTN parameters, based on information in the literature for similar materials~\cite{KIRAN2014,MEADE2020,DASSAULT2021}.
 	The process used to define the bounds for $m$ is outlined in detail in Section~\ref{h:tensile_tests}.
 
-	\input{../TABLES/PARAMETER_SPACE_ALL.tex}
+	\input{PARAMETER_SPACE_ALL.tex}
  	%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\subsection{The covariance function}
 	\label{h:covariance_function}
@@ -322,7 +322,7 @@
 	DoE maximises the statistical significance of results with a minimised number of experiments.
 	Table~\ref{tab:L12} shows a DoE array for 12 initial finite element simulations based on the maximum and minimum parameter space values, where values of 1 and 2 in Table~\ref{tab:L12} represent the minimum and maximum parameter bounds, respectively.
 
-	\input{../TABLES/L12.tex}
+	\input{L12.tex}
 
 	Figure~\ref{fig:doe_flowchart} shows a flowchart describing the DoE procedure.
 	As illustrated in Figure~\ref{fig:doe_flowchart}, the user first defines the parameter space (here shown in Table~\ref{tab:parameter_space_all}).
@@ -460,7 +460,7 @@
 	\end{figure}
 
 
-	\input{../TABLES/BO_PARAMETER_VALUES.tex}
+	\input{BO_PARAMETER_VALUES.tex}
 
 	The tests for Dataset 1 and 2 have been carried out under nominally identical conditions, while the test for Dataset 3 has been carried out at a different temperature on the same material.
 
@@ -494,7 +494,7 @@
 		\label{fig:unique}
 	\end{figure}
 
-	\input{../TABLES/HYPER_PARAMETER_VALUES.tex}
+	\input{HYPER_PARAMETER_VALUES.tex}
 
 	 It may be noted from Table~\ref{tab:hyper_parameter_values} that all the model parameters depend on the hyperparameter selection.
 	Given that excellent agreement was achieved for all four analyses this implies that the problem does not have a unique solution.
