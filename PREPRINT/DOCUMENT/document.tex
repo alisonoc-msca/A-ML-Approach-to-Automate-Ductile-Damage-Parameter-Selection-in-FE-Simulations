@@ -68,7 +68,6 @@
 \usepackage[markup=underlined]{changes}
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \usepackage{graphicx}
-%\usepackage{biblatex}
 \graphicspath{{../../RESULTS/}{../FIGURES/}}
 \renewcommand{\floatpagefraction}{.8}%
 %%COLUMN WIDTHS FOR TABLES
@@ -80,9 +79,6 @@
 %\widowpenalty10000
 %\clubpenalty10000
 
-%\journal{Advances in Engineering Software}
-%\journal{Computers and Structures}
-%\journal{Computer Methods in Applied Mechanics and Engineering}
 \journal{European Journal of Mechanics A/Solids}
 
 
@@ -102,24 +98,22 @@
 		\address[3]{Confirm Smart Manufacturing Research Centre, Ireland}
 
 		\begin{abstract}
-			A key limitation of finite element analysis is accurate modelling of material damage.
-			While additional material models exist that improve correlations between simulated damage and experimental data, these models often require additional parameters that are difficult to estimate.
-			Here Bayesian optimisation, a machine learning technique, is shown to successfully identify material model parameters.
-			The Bayesian derived material model parameters result in simulated output with less than 2~\% error compared to experimental data.
-			The framework detailed here is fully autonomous, requiring only basic information that can be derived from a simple tensile test.
+			A key limitation of finite element analysis of material behaviour is accurate modelling of material damage.
+			Here Bayesian optimisation, a machine learning technique, is shown to successfully identify material model parameters in a commonly used ductile damage model.
+			The Bayesian derived material model parameters result in simulated output with less than 2\% error compared to experimental data.
+			The framework detailed here is fully autonomous, requiring data that can be derived from a simple tensile test.
 			This framework has been successfully deployed to three datasets of P91 material tested at ambient ($20~\degree$C) and higher ($500~\degree$C) temperatures.
-			Hyperparameters are shown to affect individual parameter values due to the ill-posedness of the problem.
 		\end{abstract}
 
 		\begin{highlights}
-			\item Bayesian optimisation derived parameters provide excellent agreement comparing simulated and experimental data.
+			\item Material parameters obtained used Bayesian optimisation provide excellent agreement between simulated and experimental data.
 			\item Ductile damage parameters are successfully derived for ambient and higher test temperatures.
-			\item Required user-defined input such as test data can be easily generated from basic engineering tests.
+			\item Required user-defined input such as test data can be easily obtained from standard engineering tests.
 		\end{highlights}
 
 		\begin{keyword}
 			machine learning;
-			bayesian optimisation;
+			Bayesian optimisation;
 			ductile damage;
 			parameter selection;
 		\end{keyword}
@@ -135,9 +129,9 @@
 	The FE method offers a level of detail not obtainable from analytical solutions but is relatively computationally expensive and ultimately relies on experimental data for validation.
 	Ductile damage modelling can be used in conjunction with FE simulations to represent mechanical behaviour of metals under high strain conditions when damage mechanisms are important~\cite{ABBASSI2013, CHAHBOUB2019, ZHANG2021}.
 	Such models are generally complex and require calibration parameters that are difficult to derive experimentally or analytically.
-	Calibrating a ductile damage modelling can be considered a form of ``black box optimisation'', where the inputs (calibration parameters) and outputs (data in a tensile test) are known but the functional relationship between the calibration parameters and the material mechanical response is unknown.
+	Calibrating a ductile damage modelling can be considered a form of black box optimisation, where the inputs (calibration parameters) and outputs (data in a tensile test) are known but the functional relationship between the calibration parameters and the material mechanical response is unknown.
 	Such an optimisation problem can be solved using machine learning, a term used to describe algorithms and/or statistical models that allow computers to select the best method of progression in a problem, without human interaction or explicit programming~\cite{BIKMKHAMETOV2020}.
-	In particular, Bayesian optimisation (BO) has been shown to outperform other machine learning algorithms in solving black-box optimisation problems~\cite{SNOEK2012}.
+	In particular, Bayesian optimisation (BO) has been shown to outperform other machine learning algorithms in solving black box optimisation problems~\cite{SNOEK2012}.
 	Machine learning algorithms, informed directly by experimental and/or simulation data, have been successfully employed to solve numerous engineering problems across a wide range of applications~\cite{MONGAN2022, LIU2020, HEGDE2020}.
 	BO is commonly used in machine learning for artificial neural network (ANN) hyperparameter selection~\cite{DEWANCKER2016, MONGAN2022, BIKMKHAMETOV2020, GHAVAMIAN2021} and has recently been used to identify material parameters in a viscoplastic material model, \citet{RYAN2022}.
 	The versatility of BO makes it an attractive method for solving a wide variety of engineering challenges such as: material design ~\cite{ZHANG2020, CHUAQUI2021}, cardiac mechanics~\cite{BOROWSKA2022}, light emission for thin films~\cite{WANKERL2022} and manufacturing process improvements~\cite{MONGAN2022, GUNN2022}.
@@ -177,7 +171,6 @@
 	Where $P$ represents the force applied to the specimen, $A$ the specimen cross-sectional area, $\Delta l$ the change in length of the specimen and $l_0$ the original length.
 	However, as the specimen in stretched in the loading direction, in reduces in thickness in the direction transverse to the load, due to the Poisson effect~\cite{YOUNG2001}.
 	Therefore, the cross-section area of the specimen decreases continuously with increasing load.
-	%This effect becomes more noticeable post necking as the geometry changes are focused in the necked region and the cross-sectional area decreases significantly.
 	To account for this geometric change a so-called true stress-true strain relationship (denoted as $\sigma_{true}$ and $\epsilon_{true}$, respectively) is formulated from engineering stress-strain data, as shown in Equations~\ref{eq:eng_stress}~to~\ref{eq:true_strain}~\cite{YOUNG2001}.
 
 	\begin{equation}
@@ -200,32 +193,24 @@
 
 	A popular damage model, used to describe the softening behaviour seen in the material damage region of Figure~\ref{fig:eng_ss}, is the Gurson-Tvergaard-Needleman (GTN) model~\cite{WCISLIK2016, CHAHBOUB2019, TVERGAARD1984a}.
 	The parameters are typically estimated by conducting numerical simulations, manually iterating the relevant parameter value, and matching the simulation result to experimental data.
-%	\begin{figure}[!htbp]
-%		\centering
-%		\includegraphics[width=\linewidth, height=0.4\textheight, keepaspectratio]{DIAGRAM_TRUE_SS}
-%		\caption{Illustration demonstrating the impact of additional material models on simulated material behaviour.}
-%		\label{fig:true_ss}
-%	\end{figure}
+
 	The GTN model response for a tensile test is described in Equation~\ref{eq:gtn_yield}, where $\sigma$ is the current (uniaxial) stress, $\sigma_y$ is the material yield strength, $f$ is the current void volume fraction (the ratio of the volume of voids to the total material volume) and $q_1$, $q_2$, and $q_3$ are material parameters,
 	\begin{equation}
 		\left( \frac{\sigma}{\sigma_y} \right)^2 + 2q_{1}f\left( \cosh \frac{q_2 \sigma}{2\sigma_y} \right) - q_3 f^2 = 1.
 		\label{eq:gtn_yield}
 	\end{equation}
 
-	The rate of change of the void volume fraction, $f$, is described by Equation~\ref{eq:vvf} where $\dot{f}_n$ and $\dot{f}_g$ represent the void nucleation rate and void growth rate, respectively.
+	The rate of change of the void volume fraction, $f$, is described by Equation~\ref{eq:vvf} where $\dot{f}_n$ and $\dot{f}_g$ represent the void nucleation rate and void growth rate, respectively,
 
 	\begin{equation}
-		\dot{f} = \dot{f}_n + \dot{f}_g
+		\dot{f} = \dot{f}_n + \dot{f}_g.
 		\label{eq:vvf}
 	\end{equation}
-
 	The void growth rate, $\dot{f}_g$, is obtained from conservation of mass,
-
 	\begin{equation}
 		\dot{f}_g = (1-f)\dot{\varepsilon},
 		\label{eq:void_growth}
 	\end{equation}
-
 	while the void nucleation rate, $\dot{f}_n$, is given by Equation~\ref{eq:void_nucleation}, where $\varepsilon^p_m$ is the plastic strain of the unvoided (matrix) material, and $f_N$, $S_N$ and $\varepsilon_N$, are material parameters.
 
 	\begin{equation}
@@ -241,148 +226,129 @@
 	\label{h:general_bo}
 
 	The goal of BO is to find the global minimum of an unknown (black box) function.
-	There are two key ingredients to a BO framework: a surrogate model and a loss function which work jointly with an acquisition function.
+	There are two key ingredients to a BO framework: a surrogate model and a loss function.
 	The surrogate model, sometimes called a probabilistic model, describes the BO's current knowledge about the unknown function based on observed data.
 	The loss function describes how well the previously observed data are optimised (i.e.\ converging towards a global minimum)~\cite{SHAHRIARI2016}.
-	The acquisition function controls how the BO explores the parameter space.
+	The surrogate model and loss function work jointly with an acquisition function, which controls how the BO explores the parameter space.
+	The surrogate model, $f(x)$, is determined using Gaussian process regression (GPR) on inputs, $x$, the observed data related to the unknown function.
+	A Gaussian process is a collection of random variables, many of which have consistent, joint Gaussian distributions, specified by the covariance function~\cite{RASMUSSEN2004, RASMUSSEN2006} (see Section~\ref{h:covariance_function} for further details on the covariance function).
 
-	\textit{`A Gaussian process is defined as a collection of random variables'}~\cite{RASMUSSEN2006} many of which have consistent, joint Gaussian distributions, that are specified by the covariance function~\cite{RASMUSSEN2004}.
-	Gaussian process regression (GPR) uses Gaussian processes theory to define a surrogate model $f(x)$ based on regression of limited inputs $x$.
-	To generate a surrogate model, observed data about the unknown function must be provided to the BO framework.
-
-	The covariance function (also referred to as kernel, covarience kernel or kernel function), is user-defined and the choice of the covariance function has significant impact on the GPR and, by extension, the overall BO result~\cite{WANG2022}.
-	For black-box functions where the shape and characteristics are unknown it is common to combine multiple covariance functions to provide a wide-range of characteristics that might be relevant to the unknown function.
-
-	The probability distribution generated by GPR is based on a ranking system, where input $x$ is evaluated as $f(x)$.
-	The evaluation, $f(x)$, is then ranked in terms of its performance relative to the loss function.
+	The probability distribution generated by GPR is based on a ranking system, where input $x$ is evaluated as $f(x)$ and $f(x)$ is ranked in terms of its performance relative to the loss function.
 	In this work the loss function is the mean average percentage error (MAPE) which quantifies the similarity between simulated and experimental data (see Section~\ref{h:mape_detailed} for further detail).
 	To minimise the loss function the L-BFGS-B optimisation algorithm~\cite{ZHU1997} is used.
-	This algorithm uses historical gradient evaluations to build up an approximation of the unknown function.
-	The L-BFGS-B algorithm is popular for large scale optimisation problems as it requires less memory compared to other methods.
+	This algorithm uses historical gradient evaluations of $f(x)$ to construct an approximation of the unknown function.
 
-	In this implementation of BO optimisation, the method repeats until either a suitable solution has been found (MAPE is below a specified value) or, some maximum number of iterations has been carried out.
-
-	In order to set reasonable bounds to the possible solutions of the problem, a parameter space is defined, within which the BO algorithm will search for relevant values.
-	The parameter space of this problem is defined in Table~\ref{tab:parameter_space_all} for the GTN parameters, based on information in the literature for similar materials~\cite{KIRAN2014,MEADE2020,DASSAULT2021}.
-	The minimum value of parameter $m$ is assumed to be zero, which corresponds to no strain-hardening.
+	In order to set reasonable bounds to the possible solutions of the problem, a parameter space is defined, within which the BO algorithm searches for values.
+	The parameter space of the current problem is defined in Table~\ref{tab:parameter_space_all} for the GTN parameters, based on information in the literature for similar materials~\cite{KIRAN2014,MEADE2020,DASSAULT2021}.
 	The process used to define the bounds for $m$ is outlined in detail in Section~\ref{h:tensile_tests}.
 
 	\input{../TABLES/PARAMETER_SPACE_ALL.tex}
 
- %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+ 	%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\subsection{The covariance function}
-		\label{h:covariance_function}
+	\label{h:covariance_function}
 
-		The covariance function used in the GPR has significant influence on the shape and characteristics of the surrogate function~\cite{MONGAN2022}.
-		In this work a covariance function, $k(x_i, x_j)$, using a combination of the Mat\'ern, Constant and White noise (White) functions, as shown in Equation~\ref{eq:mykernel}, is implemented.
+	The covariance function used in the GPR has significant influence on the shape and characteristics of the surrogate function~\cite{MONGAN2022}.
+	In this work a covariance function, $k(x_i, x_j)$, which uses a combination of the Mat\'ern, Constant and White noise (White) functions, as shown in Equation~\ref{eq:mykernel}, is implemented,
 
-		\begin{equation}
-			k(x_i, x_j) = \text{Mat\'ern} + \text{Constant} \times \text{White}
-			\label{eq:mykernel}
-		\end{equation}
-
-		The Mat\'ern covariance function is defined in Equation~\ref{eq:matern}~\cite{PEDREGOSA2011},
+	\begin{equation}
+		k(x_i, x_j) = \text{Mat\'ern} + \text{Constant} \times \text{White}.
+		\label{eq:mykernel}
+	\end{equation}
+	As the shape and/or characteristics of the black box function are unknown this covariance kernel is designed to account for shifts in mean position (Constant), noise (White) and to model potentially multiple minima positions (Mat\'ern).
+	Specifically, the Mat\'ern covariance function is defined in Equation~\ref{eq:matern}~\cite{PEDREGOSA2011},
 	\begin{equation}
 		k(x_i, x_j) = \frac{1}{\Gamma \left( \nu \right)2^{\nu-1}} \left( \frac{\sqrt{2\nu}}{l} d\left( x_i, x_j \right) \right)^{\nu}K_{\nu} \left( \frac{\sqrt{2\nu}}{l} d\left( x_i, x_j \right) \right).
 		\label{eq:matern}
 	\end{equation}
-	In Equation~\ref{eq:matern} $d(\cdot,\cdot)$ is the Euclidean distance, $K_{\nu}\left( \cdot \right)$ is a modified Bessel function and $\Gamma\left( \cdot \right)$ is the gamma function.
+	In Equation~\ref{eq:matern} $x_i$ and $x_j$ are input points, $d$ is the Euclidean distance, $K_{\nu}$ is a modified Bessel function and $\Gamma$ is the gamma function.
 
-	To modify the mean of the Gaussian process the Constant covariance function see Equation~\ref{eq:constant_kernal}~\cite{PEDREGOSA2011} is used.
+	 The Constant covariance function, is defined in Equation~\ref{eq:constant_kernal}~\cite{PEDREGOSA2011},
 	\begin{equation}
 		k\left( x_i, x_j \right) = C; \forall \; x_i, x_j,
 		\label{eq:constant_kernal}
 	\end{equation}
-	where $C=1.0$ is a constant.
-	The White noise covariance function allows users to more accurately model noisy data.
-	The White covariance function is defined in Equation~\ref{eq:white}, where $x_i$ and $x_j$ are input points, $\sigma^2$ is the variance of the noise and $\delta_{ij}$ the Kronecker delta function.
+	where $C$ is a constant.
 
+	The White covariance function is defined in Equation~\ref{eq:white},
 	\begin{equation}
-		k(x_i, x_j) = \sigma^2 \delta_{ij}
+		k(x_i, x_j) = \sigma^2 \delta_{ij},
 		\label{eq:white}
 	\end{equation}
-	As the shape and/or characteristics of the black-box function are unknow the covariance kernel (Equation~\ref{eq:mykernel}) is designed to account for shifts in mean position (Constant), noise (White) and to model potentially multiple minima positions (Mat\'ern).
-	In this work hyperparameters are fixed: $\nu=1$, $l=1$, $C=1$, $\sigma^2=1$ with the bounds, for each kernel hyperparameter, restricted to: $(1\times10^{-5}, 1\times10^{5})$.
+ 	where $\sigma^2$ is constant and $\delta_{ij}$ the Kronecker delta function.
+	In this work the following hyperparameters are fixed: $\nu=1$, $l=1$, $C=1$, $\sigma^2=1$ with the bounds, for each kernel hyperparameter, restricted to: $(1\times10^{-5}, 1\times10^{5})$.
+	\textcolor{blue}{the white function seems very simple and not very different from a constant. I'm not sure how that is supposed to represent noise}
+	\textcolor{red}{The white noise function adds noise on the diagonal of the matrix to account for uncertainity in data.}
+	\textcolor{red}{If input values for kernel are idenitical $(x_i==x_j)$ then the matrix will have a valid of 1 on the diagonal, else it be 0.}
+	\textcolor{red}{For FE simulations this may relate to uncertainities in stresses due to meshing or model assumptions.}
+	\textcolor{red}{The constant kernel does not depend on inputs.}
+	\textcolor{red}{It's main use is to check for bias in the model.}
+	\textcolor{red}{By adding a constant to the kernel matrix the model should become less sensitive to small changes in the input values - the idea behind this is that it will improve the numerical stability of the GPR.}
+
+	\textcolor{blue}{I don't understand - your define hyperparameters and then you define bounds}
+	\textcolor{red}{These bounds relevant for hyperparameter tuning and must be defined for coding purposes.
+	\textcolor{red}{The bounds are given default values and are not modified par for course.}
 
 	\subsection{The loss function}
 	\label{h:mape_detailed}
 
-	The aim of this work is to minimise the difference between experimental test data and simulation outputs generated from FE.
+	The aim of this work is to minimise the difference between experimental test data and simulation outputs generated from a finite element (FE) analysis of the problem.
 	The experimental data are measures of applied load and specimen extension taken in-situ.
-	Simulated data, comparable to experimental data measures, are extracted from each FE simulations (see Section~\ref{h:fem} for further detail).
 	In this work mean average percentage error (MAPE), Equation~\ref{eq:mape}, is used to measure the similarity between experimental data and simulated output.
  	\begin{equation}
-	\text{MAPE} = \frac{100}{n} \sum_i^n \left| \left[ \frac{P_{exp}^i - P_{sim}^i}{P_{exp}^i} \right] \right|.
+	\text{MAPE} = \frac{100}{n} \sum_i^n \left| \frac{P_{exp}^i - P_{sim}^i}{P_{exp}^i} \right|.
 	\label{eq:mape}
 	\end{equation}
 
-	Here $P^i_{exp}$ represents each experimental load data point, $P_{sim}^i$ the corresponding simulation load and $n$ the number of data points.
-	MAPE provides an average measure of error over the full dataset.
-	All data points as equally weighted.
-	To ensure that the values of $P_{exp}^i$ and $P_{sim}^i$ correspond to the same displacement the following procedure is implemented:
-	The smallest change in displacement ($\Delta u_{min}$) in the full set of experimental or simulated data points is identified.
-	Both experimental and simulated arrays are interpolated assuming a cubic relationship with an increment of $\Delta u_{min}$.
-	The corresponding experimental and simulated loading values $P^i_{exp}$ and $P^i_{sim}$ are then directly compared using Equation~\ref{eq:mape} to calculate similarity.
+	Here $P^i_{exp}$ represents each experimental load data point, $P_{sim}^i$ is the corresponding simulation load and $n$ the number of data points.
+	MAPE provides an average measure of error over the full dataset with all data points equally weighted.
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\subsection{The acquisition function}
 	\label{h:acquisition_function}
 
 	In this work the upper confidence bound (UCB) acquisition function is employed.
-	The UCB identifies the new parameters through a weighted sum of the surrogate function, $\mu \left(x \right)$, and the uncertainty, $\sigma \left(x \right)$, ~\cite{SHAHRIARI2016, DEATH2021} as shown in Equation~\ref{eq:ucb}.
+	The UCB, Equation~\ref{eq:ucb}, identifies the new parameters through a weighted sum of the surrogate function, where $\mu \left(x \right)$ is the mean, and $\sigma \left(x \right)$, the variance, respectively~\cite{SHAHRIARI2016, DEATH2021}.
+	\textcolor{blue}{You've previously used $\sigma$ as variance}
+	\textcolor{red}{variance and uncertainty used interchangably. Have confirmed it is variance modified accordingly.}
 
-		\begin{equation}
-		\alpha_{UCB} \left( x \right) = \mu \left( x \right) + \sqrt{B_t} \: \sigma\left( x \right).
-		\label{eq:ucb}
-		\end{equation}
+	\begin{equation}
+	\alpha_{UCB} \left( x \right) = \mu \left( x \right) + \Beta \: \sigma\left( x \right).
+	\label{eq:ucb}
+	\end{equation}
 
-	When the weight, $\sqrt{B_t}$, is large the acquisition function operates in ``exploratory'' mode; reducing the weight switches the model to ``exploitation'' mode.
 	Exploration and exploitation balance how the model searches the parameter space.
-	In exploration mode the new assessment point differs significantly compared to that of the previous iteration; exploratory mode returns a new assessment point more similar to that tested previously.
-%	Typically, in exploration mode the acquisition function selects a new assessment point that differs significantly from that of the previous iteration.
-%	In exploitation mode, the assessment point will be more similar to the previous value.
-%	In BO one typically starts in exploration mode before moving to exploitation.
-	The trade-off between exploration and exploitation is two-fold.
-	Firstly it ensures that the model produces results in a reasonable timescale but secondly, and somewhat more importantly, the trade-off ensures the model doesn't fall into a local minima.
-	In this research the complexity of the BO framework is minimised by fixing $B_t=2.5$.
+	When $\Beta$ is large the acquisition function operates in exploratory mode; reducing the weight switches the model to exploitation mode.
+	\textcolor{blue}{Is the weight B or square root of B?}
+	\textcolor{red}{The weight is square root of B but others often replace this with Beta symbol as shown above}
+	In exploration mode the new assessment point differs significantly from the previous iteration; exploratory mode returns a new assessment point close to that tested previously.
+	In our work we have taken $B=2.5$.
 
-%	The acquisition function minimises the difference between simulated and experimental data where simulated data is a function of eight parameter values.
-%	The objective is two-fold: 1. to identify the global minimum position of our unknown function $f(x)$, and 2. minimise the number of expensive function evaluations required.
-%	Essentially the weight value applied in Equation~\ref{eq:ucb} controls the magnitude of `x' relative to your current position.
-%	In our case the next `x' position is an array of 8 parameter values.
-%	Given the complexity of the GTN model in terms of parameter dependencies we reduced the BO framework complexity by fixing $B_t=2.5$.
-
-	\subsubsection{Acquisition function hyperparameters}
-	\label{h:acquisition_function_p}
-
-	The values of the acquisition function hyperparameters can have a significant impact on model performance~\cite{GHAVAMIAN2021, SNOEK2012}.
-	In addition to the weight, $B_t$, the acqusition function has two further hyperparameters: The number of random samples, $N_R$, and the number of optimisation samples, $N_O$.
-	$N_R$ controls the size of the array over which the range of possible inputs are distributed.
-	The main influence of $N_R$ is in calculating the mean of the black-box function.
-	Increasing $N_R$ increases the precision of the GPR, thus reducing uncertainty.
-	$N_O$ defines how many evaluations of the acquisition function are conducted and controls the level of uncertainty in the acquisition function.
-	Increasing $N_O$ makes the optimisation process more robust.
+	In addition to the weight, $B$, the acquisition function has two further hyperparameters: the number of random samples, $N_R$, and the number of optimisation samples, $N_O$.
+	$N_R$ controls the size of the array over which the range of possible inputs are distributed---increasing $N_R$ increases the precision of the GPR, thus reducing uncertainty.
+	$N_O$ defines how many evaluations of the acquisition function are conducted and controls the level of uncertainty in the acquisition function---increasing $N_O$ makes the optimisation process more robust.
+	\textcolor{red}{Not sure what `----' means}
 
 	\subsection{Initialising the BO framework}
 	\label{h:framework}
 
-	BO requires a database of initial evaluated data.
-	A design of experiment (DoE) approach is used,~\cite{UY2009, FRALEY2020}, to provide the initial evaluated data within the parameter space.
-	DoE essentially maximises the statistical significance of results with a minimised number of experiments or, as in this case, a minimised number of virtual experiments (i.e.\ FE simulations).
-	Table~\ref{tab:L12} shows a DoE array for 12 initial simulations based on the maximum and minimum parameter space values, where values of 1 and 2 in Table~\ref{tab:L12} represent the minimum and maximum parameter bounds, respectively.
+	BO requires a database of initial evaluated data within the parameter space.
+	We use a design of experiment (DoE) approach,~\cite{UY2009, FRALEY2020}, to provide the initial evaluated data.
+	DoE maximises the statistical significance of results with a minimised number of experiments.
+	Table~\ref{tab:L12} shows a DoE array for 12 initial finite element simulations based on the maximum and minimum parameter space values, where values of 1 and 2 in Table~\ref{tab:L12} represent the minimum and maximum parameter bounds, respectively.
 
 	\input{../TABLES/L12.tex}
 
 	Figure~\ref{fig:doe_flowchart} shows a flowchart describing the DoE procedure.
-	The user defines the parameter space.
-	A DoE array, such as that shown in Table~\ref{tab:L12}, is input.
-	The DoE array is then modified so that the minimum and maximum values are replaced by the user-defined parameter space values.
-	A FE simulation for each row of the DoE array, such that $i_{max}$ is the number of rows in the DoE array, is conducted.
-	Results from the simulation are processed to extract the force and displacement of relevant elements.
-	The physical experiment data are compared to the simulation data, and an error measurement is calculated (see Section~\ref{h:mape_detailed} for further detail).
-	After each iteration parameter values and the associated error measurement are appended to a csv file.
-
+	As illustrated in Figure~\ref{fig:doe_flowchart}, the user first defines the parameter space (here shown in Table~\ref{tab:parameter_space_all}).
+	A DoE array (Table~\ref{tab:L12}) is defined and the array is then modified so that the minimum and maximum values are replaced by the user-defined parameter values.
+	A finite element simulation is conducted for each row of the DoE array ($i_{max}$ is the number of (virtual) experiments in the DoE array, here 12.
+	Results from the simulation are processed and the experiment data are compared to the simulation data, and the MAPE is calculated.
+	After each analysis, $i$, the parameter values and the associated error measurement are appended to a csv file.
+	\textcolor{blue}{note: these are not mathematical iterations but are computing iterations! - check the definition on wikipedia, }
+	\textcolor{red}{Iteration: the repetition of a process to generate a sequence of outcomes. I'm not clear on where I'm misusing the word iterate?}
+	\textcolor{blue}{remove the box around the text "Proceed..." in the figure.}
+	\textcolor{red}{done}
 	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width=\linewidth, height=0.8\textheight, keepaspectratio]{DOE_FLOWCHART}
@@ -390,19 +356,18 @@
 		\label{fig:doe_flowchart}
 	\end{figure}
 
-	\subsection{The Bayesian Optimiser}
+	\subsection{Implementation of the BO-Finite element model}
 	\label{h:bayesian_opt}
-	The output of the DoE (a csv file of parameter values and error measurements, Figure~\ref{fig:doe_flowchart}) is used to initialise the Bayesian optimiser.
-	Figure~\ref{fig:bo_flowchart} diagrammatically details the method applied.
-	DoE data are analysed by the GPR to create an initial surrogate model.
-	GPR outputs are provided to the acquisition function which identifies new parameter values based on ranking the DoE data.
-	A new simulation, using acquisition function parameter values, is then conducted.
-	Again simulation data is compared to the experiment and an error calculated.
+	The output of the DoE in Figure~\ref{fig:doe_flowchart} (a csv file of parameter values and error measurements) is used to initialise the Bayesian optimiser.
+	Figure~\ref{fig:bo_flowchart} outlines the method: The DoE data are analysed by the GPR to create an initial surrogate model.
+	GPR outputs are then provided to the acquisition function which identifies new parameter values based on ranking the DoE data.
+	A new finite element simulation, using parameter values obtained from the acquisition function, is then conducted.
+	Again simulation data is compared to the experiment and the MAPE is calculated.
 	Acquisition function parameter values and error measurement data are appended to the existing csv file.
-	To assess whether the model should exit several operations, collectively referred to as a termination function, are conducted.
-	In the current analysis, to avoid system exit prior to the application of BO, the DoE values are not included as part of the termination function.
-	As shown in Figure~\ref{fig:bo_flowchart} the algorithm will iterate until the termination function recognises that an appropriate solution is found (i.e.\ error of less than 2~\% when comparing simulated and experimental results) or a maximum number of iterations ($j_{max}$) is achieved.
-	The iteration number $N_j$ at which a solution was found is identified.
+	\textcolor{blue}{please reorganise spacing to avoid double spacing after periods}.
+	\textcolor{red}{I will continue to do this}
+	The algorithm iterates until the MAPE is less than 2\% or a maximum number of iterations ($j_{max}$) is achieved.
+	In the current approach, to ensure that BO is always carried out the analysis is not terminated if MAPE is less than 2\% in the DoE.
 
 	\begin{figure}[!htbp]
 		\centering
@@ -425,8 +390,6 @@
 		\label{fig:exp_test_results}
 	\end{figure}
 	Load-displacement data were converted to true stress-strain by limiting data to the range below the maximum load.
-
-
 
 	The ultimate tensile strength ($\sigma_{UTS}$) was defined as the true stress corresponding to the maximum load.
 	The second derivative of true strain was calculated using a Savitzy-Golay filter with a three degree polynomial fit.
@@ -579,7 +542,7 @@
 	Given that excellent agreement was achieved for all four analyses this implies that the problem does not have a unique solution.
 	That is to say that multiple combinations of the eight model parameters potentially provide good agreement to experimental data.
 
-	The lowest MAPE, $1.11$~\% was found for analysis $H_4$ where $N_R$and $N_O$ were 10,000 and 100, respectively.
+	The lowest MAPE, $1.11$\% was found for analysis $H_4$ where $N_R$and $N_O$ were 10,000 and 100, respectively.
 	Comparing the model parameters ($q_1$, $q_2$ etc.) for the four analyses shows that $H_4$ deivates considerably from $H_1$.
 	$H_1$, as it has the highest $N_R$ and $N_O$, is considered the most precise of the analyses investigated here.
 	Comparing parameter $m$ in analyses $H_1$ (534.13~MPa) and $H_4$ (621.85~MPa) shows a difference of almost 100~MPa.
@@ -589,8 +552,8 @@
 
 	Comparing $H_1$ and $H_2$ in Table~\ref{tab:hyper_parameter_values} indicates how reducing $N_O$ affects the analysis.
 	While individual model parameters change slightly, overall both analyses provide similar measures of MAPE and result in load-displacement traces similar to the experimental data (Figure~\ref{fig:unique}).
-	It should be noted that $H_2$ resulted in a slightly higher MAPE, 1.61~\%, compared to that of $H_1$, 1.56~\%.
-	The higher measure of MAPE for $H_2$ is as expected given that the reduced $N_O$ effectively reduces the amount of statistical information known about the black-box function resulting in less accuracy.
+	It should be noted that $H_2$ resulted in a slightly higher MAPE, 1.61\%, compared to that of $H_1$, 1.56\%.
+	The higher measure of MAPE for $H_2$ is as expected given that the reduced $N_O$ effectively reduces the amount of statistical information known about the black box function resulting in less accuracy.
 
 	Comparing $H_1$ and $H_3$ in Table~\ref{tab:hyper_parameter_values} enables the effect of reducing $N_R$ to be assessed.
 	Here it is shown that fitting parameters $q_1$, $q_2$ and $q_3$ are broadly similar.
@@ -601,7 +564,7 @@
 	In fact comparing $H_1$ and $H_2$ to $H_3$ shows that lower $N_R$ provided a more accurate result (i.e.\ lower MAPE) in a significantly shorter timescale (iteration number 46).
 	While this may appear initially surprising it simply means that lower values of $N_R$ did not overtly effect the mean calculation of the block-box function.
 	Analysis $H_4$ shows output associated with a reduction in both the $N_O$ and $N_R$.
-	Interestingly $H_4$ has the lowest MAPE, 1.11~\%, however the number of iterations (130) is similar to those required for the $H_1$ and $H_2$ analyses.
+	Interestingly $H_4$ has the lowest MAPE, 1.11\%, however the number of iterations (130) is similar to those required for the $H_1$ and $H_2$ analyses.
 
 	It is difficult to state with any certainty which, if any, of the analyses in Table~\ref{tab:hyper_parameter_values} would be considered the most `appropriate'.
 	The issue of non-uniqueness in GTN model parameter values has been highlighted by others~\cite{KIRAN2014, CHAHBOUB2019}.
@@ -620,13 +583,14 @@
 	\label{h:conclusions}
 
 	\begin{itemize}
-		\item Bayesian optimisation framework successfully derived an array of 8 parameter values that, when applied to a ductile damage model simulation, produced an accurate representation of experimental data with a mean average percentage error of less than 2~\%.
-		\item The framework is fully autonomous requiring only basic information that can be easily generated from experimental tensile test data.
-		\item GTN model parameter values are non-unique and it is shown that multiple combinations provide excellent agreement to experimental data.
-		\item GTN model parameter values are affected by changes to the acquisition function hyperparameters.
+		\item A Bayesian optimisation framework successfully determined an array of eight material parameter values that, when applied to a ductile damage model simulation, produced an accurate representation of experimental tensile data with a mean average percentage error (MAPE) of less than 2\%.
+		\item The framework is fully autonomous requiring minimal user interaction with the combined machine learning-finite element tool typically provides calibration values in less than four hours. This compares favourably with typical time spent on trial-and-error calibration for this model.
+		\item The ductile model parameter values are found to be non-unique and it is shown that by changing the hyperparameters of the acquistion function, different combinations of ductile damage parameters are obtained, which provide good agreement wih experimental data.
+		\item Future work will consider how the BO framework can be adapted to obtain unique model parameters.
 	\end{itemize}
 
-	A preprint of this research is available~\cite{OCONNOR2023}. Additional supplementary information such as data files and code are available from GitHub~\url{https://github.com/alisonoc/PAPERA}.
+	A preprint of this research is available~\cite{OCONNOR2023}.
+	Additional supplementary information such as data files and code are available from zenodo~\url{https://doi.org/10.5281/zenodo.7686217}.
 
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -634,9 +598,9 @@
 	\label{h:acknowledgements}
 
 	This work was funded by the European Union through the Marie Sk{\l}owodska-Curie Actions grant number 101028291.
-	William Brennan, a University of Limerick undergraduate, is thanked for his contributions to earlier versions of the algorithm used in this work.
+	The contributions of William Brennan, a University of Limerick undergraduate student, is thanked for his contributions to earlier versions of the algorithm used in this work.
 	We gratefully acknowledge helpful conversations with Dr. Meghana Kshiragar and Gauri Vaidya from the University of Limerick's Lero Centre.
-	We also thank the Mathematics Applications Consortium for Science and Indusry (MACSI) group for their insightful and supportive comments surrounding this research.
+	We also thank the University of Limerick, Mathematics Applications Consortium for Science and Industry (MACSI) group for their insightful and supportive comments surrounding this research.
 
 %% If you have bibdatabase file and want bibtex to generate the
 %% bibitems, please use
