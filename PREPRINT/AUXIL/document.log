@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  1 MAR 2023 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  1 MAR 2023 21:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1313,20 +1313,14 @@ File: ../FIGURES//ABAQUS_SLOPE_COMPARISON.png Graphic file (type png)
 Package pdftex.def Info: ../FIGURES//ABAQUS_SLOPE_COMPARISON.png  used on input
  line 391.
 (pdftex.def)             Requested size: 229.91263pt x 219.40079pt.
-
-Overfull \hbox (59.4074pt too wide) in paragraph at lines 400--404
-[]\OT1/cmr/m/n/12 Finite el-e-ment mod-elling was con-ducted us-ing Abaqus/Expl
-icit [[]]. Abaqus/Explicit
- []
-
-[16 <../FIGURES//SECOND_DERIV.png>]
+ [16 <../FIGURES//SECOND_DERIV.png>]
 <../FIGURES//MODEL_3D_2D.png, id=257, 825.0825pt x 540.51938pt>
 File: ../FIGURES//MODEL_3D_2D.png Graphic file (type png)
 <use ../FIGURES//MODEL_3D_2D.png>
 Package pdftex.def Info: ../FIGURES//MODEL_3D_2D.png  used on input line 411.
 (pdftex.def)             Requested size: 390.00462pt x 255.49573pt.
- [17 <../FIGURES//ABAQUS_SLOPE_COMPARISON.png>] [18 <../FIGURES//MODEL_3D_2D.pn
-g>]
+[17 <../FIGURES//ABAQUS_SLOPE_COMPARISON.png>] [18 <../FIGURES//MODEL_3D_2D.png
+>]
 <../FIGURES//P91_20_2_FASTEST_ITERATION.png, id=278, 408.5664pt x 392.1852pt>
 File: ../FIGURES//P91_20_2_FASTEST_ITERATION.png Graphic file (type png)
 <use ../FIGURES//P91_20_2_FASTEST_ITERATION.png>
@@ -1380,7 +1374,7 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ) [22] [23 <../FIGURES//HYPERPARAMETERS.png>] [24]
-Overfull \hbox (15.7194pt too wide) in paragraph at lines 523--527
+Overfull \hbox (15.7194pt too wide) in paragraph at lines 520--524
 []\OT1/cmr/m/n/12 This work was funded by the Eu-ro-pean Union through the Mari
 e Sk lowodska-
  []
@@ -1406,54 +1400,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--112
  10 . 4233 / uuid :
  []
 
-[27] [28] [29] [30] [31])
+[27] [28] [29] [30] [31] [32])
 \Changes@OutFile=\write5
 \openout5 = `document.soc'.
 
 \tf@loc=\write6
 \openout6 = `document.loc'.
 
- [32]
+ [33]
 (C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Automate-Ductile-Dama
-ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.aux) ) 
 Here is how much of TeX's memory you used:
- 29689 strings out of 478582
- 602375 string characters out of 2840096
- 815992 words of memory out of 3000000
- 47208 multiletter control sequences out of 15000+600000
+ 29692 strings out of 478582
+ 602408 string characters out of 2840096
+ 816041 words of memory out of 3000000
+ 47209 multiletter control sequences out of 15000+600000
  484878 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,10n,117p,515b,954s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\alison.oconnor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\tcrm1200.pk><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alison.oconnor/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/alison.oconnor/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alison.oconnor/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alison.oc
-onnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/alison.oconnor/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/al
-ison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmti7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/alison.oconnor/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+ 114i,10n,117p,515b,963s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Use
+rs\alison.oconnor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/alison.oconnor/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/alison.o
+connor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/alison.oconnor/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alison.oconnor/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ali
+son.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/alison.oconnor/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alison.oconn
+or/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
+Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmti7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Auto
 mate-Ductile-Damage-Parameter-Selection-in-FE-Simulations\PREPRINT\OUT\document
-.pdf (33 pages, 1408087 bytes).
+.pdf (34 pages, 1408877 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

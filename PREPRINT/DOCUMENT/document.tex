@@ -106,8 +106,12 @@
 		\end{abstract}
 
 		\begin{highlights}
-			\item Material parameters in a ductile damage model have been obtained using a combination of Bayesian optimisation and finite element analysis.
-			\item The automated approach can be used to analyse materials data with limited user interaction providing a potential for systematic study of large material data sets.
+			%%% MAX 85 CHARACTERS INCLUDING SPACES
+			\item Ductile damage model parameters are obtained from Bayesian optimisation and FE.
+			\item Errors of less than 2\%, comparing experimental and simulation data, are reported.
+			\item The automated approach requires minimal user input.
+%			\item Material parameters in a ductile damage model have been obtained using a combination of Bayesian optimisation and finite element analysis.
+%			\item The automated approach can be used to analyse materials data with limited user interaction providing a potential for systematic study of large material data sets.
 		\end{highlights}
 
 		\begin{keyword}
@@ -397,8 +401,8 @@
 	\section{FE Modelling of Tensile Tests}
 	\label{h:fem}
 
-	Finite element modelling was conducted using Abaqus/Explicit~\cite{DASSAULT2021}.
-	Abaqus/Explicit uses a dynamic solver, and here a mass scaling factor of 10 is used to reduce computation time~\cite{DASSAULT2021}.
+	Finite element modelling was conducted using Abaqus/Explicit~\cite{DASSAULT2021} (Explicit).
+	Explicit uses a dynamic solver, and here a mass scaling factor of 10 is used to reduce computation time~\cite{DASSAULT2021}.
 	The model was meshed using 4664 linear, reduced integration axisymmetric (CAX4R) elements.
 	The smallest element size is 0.09~mm.
 
@@ -513,9 +517,6 @@
 		\item Future work will consider how the BO framework can be adapted to obtain unique model parameters and how the approach can be applied to larger datasets and multiple specimen types.
 	\end{itemize}
 
-	A preprint of this research is available~\cite{OCONNOR2023}.
-	Additional supplementary information such as data files and code are available from zenodo~\url{https://doi.org/10.5281/zenodo.7686217}.
-
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\section{Ackowledgements}
 	\label{h:acknowledgements}
@@ -524,6 +525,14 @@
 	We acknowledge William Brennan, a University of Limerick undergraduate student, for his contributions to this research.
 	We gratefully acknowledge helpful conversations with Dr Meghana Kshiragar and Ms Gauri Vaidya from the University of Limerick's Lero Centre.
 	We also acknowledge members of the University of Limerick, Mathematics Applications Consortium for Science and Industry (MACSI) group for their insightful and supportive comments surrounding this research.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Supplementary information}
+	\label{h:supplementary}
+
+	A preprint of this research is available~\cite{OCONNOR2023}.
+	Additional supplementary information such as data files and code are available from zenodo~\url{https://doi.org/10.5281/zenodo.7686217}.
+
 
 %% If you have bibdatabase file and want bibtex to generate the
 %% bibitems, please use
