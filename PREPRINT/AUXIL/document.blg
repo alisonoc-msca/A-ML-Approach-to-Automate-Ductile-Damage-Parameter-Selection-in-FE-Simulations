@@ -11,46 +11,45 @@ Warning--empty pages in SNOEK2012
 Warning--empty journal in GHAVAMIAN2021
 Warning--empty pages in FRALEY2020
 Warning--missing institution in ROUSSELIER2019
-Warning--empty booktitle in OCONNOR2018
 You've used 41 entries,
             2918 wiz_defined-function locations,
-            943 strings with 15243 characters,
-and the built_in function-call counts, 28199 in all, are:
-= -- 2071
-> -- 1234
+            946 strings with 15350 characters,
+and the built_in function-call counts, 28279 in all, are:
+= -- 2064
+> -- 1246
 < -- 24
-+ -- 475
-- -- 420
-* -- 3377
-:= -- 3997
++ -- 479
+- -- 424
+* -- 3416
+:= -- 4019
 add.period$ -- 74
 call.type$ -- 41
-change.case$ -- 342
+change.case$ -- 345
 chr.to.int$ -- 41
-cite$ -- 49
-duplicate$ -- 2070
-empty$ -- 2000
-format.name$ -- 543
-if$ -- 5223
+cite$ -- 48
+duplicate$ -- 2067
+empty$ -- 2010
+format.name$ -- 547
+if$ -- 5219
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 418
+missing$ -- 420
 newline$ -- 203
-num.names$ -- 162
-pop$ -- 729
+num.names$ -- 164
+pop$ -- 727
 preamble$ -- 1
-purify$ -- 344
+purify$ -- 345
 quote$ -- 0
-skip$ -- 522
+skip$ -- 500
 stack$ -- 0
-substring$ -- 1160
-swap$ -- 1559
+substring$ -- 1170
+swap$ -- 1562
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 360
-warning$ -- 6
-while$ -- 174
+warning$ -- 5
+while$ -- 177
 width$ -- 0
-write$ -- 571
-(There were 6 warnings)
+write$ -- 572
+(There were 5 warnings)

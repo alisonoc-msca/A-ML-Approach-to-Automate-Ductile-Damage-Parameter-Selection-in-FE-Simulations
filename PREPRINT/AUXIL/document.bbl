@@ -108,6 +108,18 @@
   learning}  (\bibinfo{year}{2021}).
   \DOIprefix\doi{10.4233/uuid:015bbf35-5e29-4630-b466-1a29d4c5bfb3}.
 %Type = Article
+\bibitem[{Ryan et~al.(2022)Ryan, Berk, Rana, McDonald, and
+  Venkatesh}]{RYAN2022}
+\bibinfo{author}{S.~Ryan}, \bibinfo{author}{J.~Berk},
+  \bibinfo{author}{S.~Rana}, \bibinfo{author}{B.~McDonald},
+  \bibinfo{author}{S.~Venkatesh},
+\newblock \bibinfo{title}{A bayesian optimisation methodology for the inverse
+  derivation of viscoplasticity model constants in high strain-rate
+  simulations},
+\newblock \bibinfo{journal}{Defence Technology} \bibinfo{volume}{18}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{1563--1577}.
+  \DOIprefix\doi{10.1016/j.dt.2021.10.013}.
+%Type = Article
 \bibitem[{Zhang et~al.(2020)Zhang, Apley, and Chen}]{ZHANG2020}
 \bibinfo{author}{Y.~Zhang}, \bibinfo{author}{D.~W. Apley},
   \bibinfo{author}{W.~Chen},
@@ -177,18 +189,6 @@
 \newblock \bibinfo{journal}{Engineering Fracture Mechanics}
   \bibinfo{volume}{245} (\bibinfo{year}{2021}) \bibinfo{pages}{107535}.
   \DOIprefix\doi{10.1016/j.engfracmech.2021.107535}.
-%Type = Article
-\bibitem[{Ryan et~al.(2022)Ryan, Berk, Rana, McDonald, and
-  Venkatesh}]{RYAN2022}
-\bibinfo{author}{S.~Ryan}, \bibinfo{author}{J.~Berk},
-  \bibinfo{author}{S.~Rana}, \bibinfo{author}{B.~McDonald},
-  \bibinfo{author}{S.~Venkatesh},
-\newblock \bibinfo{title}{A bayesian optimisation methodology for the inverse
-  derivation of viscoplasticity model constants in high strain-rate
-  simulations},
-\newblock \bibinfo{journal}{Defence Technology} \bibinfo{volume}{18}
-  (\bibinfo{year}{2022}) \bibinfo{pages}{1563--1577}.
-  \DOIprefix\doi{10.1016/j.dt.2021.10.013}.
 %Type = Book
 \bibitem[{Young and Budynas(2001)}]{YOUNG2001}
 \bibinfo{author}{W.~C. Young}, \bibinfo{author}{R.~Budynas},
@@ -222,6 +222,12 @@
 \newblock \bibinfo{journal}{Proceedings of the IEEE} \bibinfo{volume}{104}
   (\bibinfo{year}{2016}) \bibinfo{pages}{148--175}.
   \DOIprefix\doi{10.1109/JPROC.2015.2494218}.
+%Type = Book
+\bibitem[{Rasmussen and Williams(2006)}]{RASMUSSEN2006}
+\bibinfo{author}{C.~E. Rasmussen}, \bibinfo{author}{C.~K.~I. Williams},
+  \bibinfo{title}{Gaussian Processes for Machine Learning}, Adaptive
+  Computation and Machine Learning, \bibinfo{publisher}{{MIT Press}},
+  \bibinfo{address}{{Cambridge, Mass}}, \bibinfo{year}{2006}.
 %Type = Incollection
 \bibitem[{Rasmussen(2004)}]{RASMUSSEN2004}
 \bibinfo{author}{C.~E. Rasmussen},
@@ -235,12 +241,6 @@
   \bibinfo{publisher}{{Springer}}, \bibinfo{address}{{Berlin, Heidelberg}},
   \bibinfo{year}{2004}, pp. \bibinfo{pages}{63--71}.
   \DOIprefix\doi{10.1007/978-3-540-28650-9_4}.
-%Type = Book
-\bibitem[{Rasmussen and Williams(2006)}]{RASMUSSEN2006}
-\bibinfo{author}{C.~E. Rasmussen}, \bibinfo{author}{C.~K.~I. Williams},
-  \bibinfo{title}{Gaussian Processes for Machine Learning}, Adaptive
-  Computation and Machine Learning, \bibinfo{publisher}{{MIT Press}},
-  \bibinfo{address}{{Cambridge, Mass}}, \bibinfo{year}{2006}.
 %Type = Misc
 \bibitem[{Wang(2022)}]{WANG2022}
 \bibinfo{author}{J.~Wang}, \bibinfo{title}{An {{Intuitive Tutorial}} to
@@ -358,14 +358,18 @@
 \newblock \bibinfo{journal}{International Journal of Fracture}
   \bibinfo{volume}{17} (\bibinfo{year}{1981}) \bibinfo{pages}{389--407}.
   \DOIprefix\doi{10.1007/BF00036191}.
-%Type = Inproceedings
-\bibitem[{O'Connor et~al.(2018)O'Connor, Davies, and Nikbin}]{OCONNOR2018}
-\bibinfo{author}{A.~N. O'Connor}, \bibinfo{author}{C.~M. Davies},
-  \bibinfo{author}{K.~M. Nikbin},
-\newblock \bibinfo{title}{Fracture {{Toughness}} of {{Defects Orientated
-  Parallel}} to a {{Dissimilar Metal Weld Boundary}}},
-\newblock \bibinfo{number}{51678}, \bibinfo{year}{2018}, p.
-  \bibinfo{pages}{V06AT06A015}. \DOIprefix\doi{10.1115/PVP2018-84405}.
+%Type = Incollection
+\bibitem[{Brocks et~al.(1995)Brocks, Klingbeil, K{\"u}necke, and
+  Sun}]{BROCKS1995}
+\bibinfo{author}{W.~Brocks}, \bibinfo{author}{D.~Klingbeil},
+  \bibinfo{author}{G.~K{\"u}necke}, \bibinfo{author}{D.-Z. Sun},
+\newblock \bibinfo{title}{Application of the {{Gurson Model}} to {{Ductile
+  Tearing Resistance}}},
+\newblock in: \bibinfo{editor}{A.~Bakker} (Ed.), \bibinfo{booktitle}{Constraint
+  {{Effects}} in {{Fracture Theory}} and {{Applicatons}}: {{Second Volume}}},
+  \bibinfo{publisher}{{ASTM International}}, \bibinfo{address}{{West
+  Conshohocken, PA}}, \bibinfo{year}{1995}, pp. \bibinfo{pages}{232--252}.
+  \DOIprefix\doi{10.1520/STP14638S}.
 %Type = Misc
 \bibitem[{O'Connor et~al.(2023)O'Connor, Mongan, and O'Dowd}]{OCONNOR2023}
 \bibinfo{author}{A.~O'Connor}, \bibinfo{author}{P.~Mongan},

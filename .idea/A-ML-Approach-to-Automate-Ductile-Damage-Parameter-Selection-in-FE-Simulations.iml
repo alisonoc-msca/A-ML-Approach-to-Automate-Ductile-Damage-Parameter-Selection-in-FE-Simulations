@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/BAYESIAN_OPTIMISATION/RESULTS" />
       <excludeFolder url="file://$MODULE_DIR$/PREPRINT" />
     </content>
+    <content url="file://$MODULE_DIR$/PREPRINT/DOCUMENT" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

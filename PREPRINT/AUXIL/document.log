@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  28 FEB 2023 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.11)  1 MAR 2023 10:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -102,7 +102,8 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@sep=\skip49
 \@@sep=\skip50
 
-(C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.spl)
+(C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Automate-Ductile-Dama
+ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.spl)
 (C:\Users\alison.oconnor\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.
 sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -1112,7 +1113,9 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 89.
- (C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.aux)
+
+(C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Automate-Ductile-Dama
+ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.aux)
 \openout1 = `document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -1275,179 +1278,8 @@ Package pdftex.def Info: ../FIGURES//DIAGRAM_ENG_SS.png  used on input line 163
 .
 (pdftex.def)             Requested size: 220.40826pt x 219.40445pt.
  [3] [4] [5 <../FIGURES//DIAGRAM_ENG_SS.png>]
-[6] [7] [8] (../TABLES/PARAMETER_SPACE_ALL.tex
-../TABLES/PARAMETER_SPACE_ALL.tex:20: Missing $ inserted.
-<inserted text> 
-                $
-l.20 {1-3} &    \textbf{$q_1$} &  9.00\times
-                                             10^{-1} &    1.60 \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:20: Missing $ inserted.
-<inserted text> 
-                $
-l.20 ...    \textbf{$q_1$} &  9.00\times 10^{-1} &
-                                                      1.60 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:21: Missing $ inserted.
-<inserted text> 
-                $
-l.21 {1-3} &    \textbf{$q_2$} &  9.00\times
-                                             10^{-1} &    1.10 \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:21: Missing $ inserted.
-<inserted text> 
-                $
-l.21 ...    \textbf{$q_2$} &  9.00\times 10^{-1} &
-                                                      1.10 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:22: Missing $ inserted.
-<inserted text> 
-                $
-l.22 {1-3} &    \textbf{$q_3$} &  8.10\times
-                                             10^{-1} &    2.56 \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:22: Missing $ inserted.
-<inserted text> 
-                $
-l.22 ...    \textbf{$q_3$} &  8.10\times 10^{-1} &
-                                                      2.56 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:23: Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...} &    \textbf{$\epsilon_N$} &  2.50\times
-                                                   10^{-1} &    0.40\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:23: Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...xtbf{$\epsilon_N$} &  2.50\times 10^{-1} &
-                                                      0.40\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:24: Missing $ inserted.
-<inserted text> 
-                $
-l.24 {1-3} &    \textbf{$f_N$} &  3.00\times
-                                             10^{-1} &    0.09 \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:24: Missing $ inserted.
-<inserted text> 
-                $
-l.24 ...    \textbf{$f_N$} &  3.00\times 10^{-1} &
-                                                      0.09 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:25: Missing $ inserted.
-<inserted text> 
-                $
-l.25 {1-3} &    \textbf{$s_N$} &  1.00\times
-                                             10^{-1} &    2.00\times 10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:25: Missing $ inserted.
-<inserted text> 
-                $
-l.25 ...    \textbf{$s_N$} &  1.00\times 10^{-1} &
-                                                      2.00\times 10^{-1} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:25: Missing $ inserted.
-<inserted text> 
-                $
-l.25 ..._N$} &  1.00\times 10^{-1} &    2.00\times
-                                                   10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
-<inserted text> 
-                $
-l.26 {
-      1-3} &    \textbf{$f_0$} &  1.30\times 10^{-3} &    1.50\times 10^{-3} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
-<inserted text> 
-                $
-l.26 {1-3} &    \textbf{$f_0$} &  1.30\times
-                                             10^{-3} &    1.50\times 10^{-3} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
-<inserted text> 
-                $
-l.26 ...    \textbf{$f_0$} &  1.30\times 10^{-3} &
-                                                      1.50\times 10^{-3} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:26: Missing $ inserted.
-<inserted text> 
-                $
-l.26 ..._0$} &  1.30\times 10^{-3} &    1.50\times
-                                                   10^{-3} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/PARAMETER_SPACE_ALL.tex:27: Missing $ inserted.
-<inserted text> 
-                $
-l.27 {
-      1} &    \textbf{$m$} &  0 &  800 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-) [9] [10] [11] [12] (../TABLES/L12.tex) [13]
+[6] [7] [8] (../TABLES/PARAMETER_SPACE_ALL.tex) [9] [10] [11] [12]
+(../TABLES/L12.tex) [13]
 <../FIGURES//DOE_FLOWCHART.png, id=221, 456.20438pt x 754.31813pt>
 File: ../FIGURES//DOE_FLOWCHART.png Graphic file (type png)
 <use ../FIGURES//DOE_FLOWCHART.png>
@@ -1485,8 +1317,8 @@ File: ../FIGURES//MODEL_3D_2D.png Graphic file (type png)
 <use ../FIGURES//MODEL_3D_2D.png>
 Package pdftex.def Info: ../FIGURES//MODEL_3D_2D.png  used on input line 481.
 (pdftex.def)             Requested size: 389.98662pt x 251.84677pt.
- [19] [20 <../FIGURES//ABAQUS_SLOPE_COMPARISON.png>] [21 <../FIGURES//MODEL_3D_
-2D.png>]
+ [19] [20 <../FIGURES//ABAQUS_SLOPE_COMPARISON.png>]
+[21 <../FIGURES//MODEL_3D_2D.png>]
 <../FIGURES//P91_20_2_FASTEST_ITERATION.png, id=292, 408.5664pt x 392.1852pt>
 File: ../FIGURES//P91_20_2_FASTEST_ITERATION.png Graphic file (type png)
 <use ../FIGURES//P91_20_2_FASTEST_ITERATION.png>
@@ -1510,315 +1342,21 @@ Overfull \hbox (10.91263pt too wide) in paragraph at lines 515--534
 [][]   []
  []
 
-(../TABLES/BO_PARAMETER_VALUES.tex
-../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 \textbf{$q_2$} &    9.952\times
-                                    10^{-1} &    9.667\times10^{-1} &    9.6...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 \textbf{$q_2$} &    9.952\times10^{-1} &
-                                                 9.667\times10^{-1} &    9.6...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...} &    9.952\times10^{-1} &    9.667\times
-                                                  10^{-1} &    9.699\times10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...952\times10^{-1} &    9.667\times10^{-1} &
-                                                      9.699\times10^{-1} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...} &    9.667\times10^{-1} &    9.699\times
-                                                  10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 \textbf
-            {$q_3$} &    2.295 &    1.407 &    2.001 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 \textbf{$\epsilon_N$} &    2.900\times
-                                           10^{-1} &    3.467\times10^{-1} &...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...bf{$\epsilon_N$} &    2.900\times10^{-1} &
-                                                      3.467\times10^{-1} &  ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...} &    2.900\times10^{-1} &    3.467\times
-                                                  10^{-1} &    3.720\times10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...900\times10^{-1} &    3.467\times10^{-1} &
-                                                      3.720\times10^{-1} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...} &    3.467\times10^{-1} &    3.720\times
-                                                  10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 \textbf
-            {$s_N$} &    1.671\times10^{-1} &    1.856\times10^{-1} &    1.2...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 \textbf{$s_N$} &    1.671\times
-                                    10^{-1} &    1.856\times10^{-1} &    1.2...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 \textbf{$s_N$} &    1.671\times10^{-1} &
-                                                 1.856\times10^{-1} &    1.2...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...} &    1.671\times10^{-1} &    1.856\times
-                                                  10^{-1} &    1.214\times10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...671\times10^{-1} &    1.856\times10^{-1} &
-                                                      1.214\times10^{-1} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...} &    1.856\times10^{-1} &    1.214\times
-                                                  10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 \textbf
-            {$f_N$} &    3.869\times10^{-2} &    8.481\times10^{-2} &    4.7...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 \textbf{$f_N$} &    3.869\times
-                                    10^{-2} &    8.481\times10^{-2} &    4.7...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 \textbf{$f_N$} &    3.869\times10^{-2} &
-                                                 8.481\times10^{-2} &    4.7...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...} &    3.869\times10^{-2} &    8.481\times
-                                                  10^{-2} &    4.706\times10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...869\times10^{-2} &    8.481\times10^{-2} &
-                                                      4.706\times10^{-2} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...} &    8.481\times10^{-2} &    4.706\times
-                                                  10^{-2} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 \textbf
-            {$f_0$} &    1.370 \times 10^{-3} &    1.340 \times 10^{-3} &   ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 \textbf{$f_0$} &    1.370 \times
-                                      10^{-3} &    1.340 \times 10^{-3} &   ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 \textbf{$f_0$} &    1.370 \times 10^{-3} &
-                                                   1.340 \times 10^{-3} &   ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...    1.370 \times 10^{-3} &    1.340 \times
-                                                   10^{-3} &    1.310 \times...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...\times 10^{-3} &    1.340 \times 10^{-3} &
-                                                      1.310 \times 10^{ -3} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/BO_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...    1.340 \times 10^{-3} &    1.310 \times
-                                                   10^{ -3} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/BO_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 \textbf
-            {$m$} &  534.1 &  725.4 &  421.4 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-) [22] [23 <../FIGURES//P91_20_2_FASTEST_ITERATION.png> <../FIGURES//P91_20_1_F
-ASTEST_ITERATION.png> <../FIGURES//P91_500_FASTEST_ITERATION.png>] [24]
+(../TABLES/BO_PARAMETER_VALUES.tex) [22] [23 <../FIGURES//P91_20_2_FASTEST_ITER
+ATION.png> <../FIGURES//P91_20_1_FASTEST_ITERATION.png> <../FIGURES//P91_500_FA
+STEST_ITERATION.png>] [24]
 <../FIGURES//HYPERPARAMETERS.png, id=332, 408.5664pt x 392.1852pt>
 File: ../FIGURES//HYPERPARAMETERS.png Graphic file (type png)
 <use ../FIGURES//HYPERPARAMETERS.png>
 Package pdftex.def Info: ../FIGURES//HYPERPARAMETERS.png  used on input line 57
 0.
 (pdftex.def)             Requested size: 228.56496pt x 219.40079pt.
-
-(../TABLES/HYPER_PARAMETER_VALUES.tex
+ (../TABLES/HYPER_PARAMETER_VALUES.tex
 ../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
 <inserted text> 
                 $
-l.29 \textbf{$q_2$} & 9.952\times
-                                 10^{-1} & 1.021 & 9.547\times10^{-1} & 1.03...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 \textbf{$q_2$} & 9.952\times10^{-1} &
-                                           1.021 & 9.547\times10^{-1} & 1.03...
+l.29 ...f{$q_2$} & $9.952\times10^{-1}$ & $1.021 &
+                                                   9.547\times10^{-1}$ & 1.0...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1828,325 +1366,10 @@ my insertion and my current dilemma will both disappear.
 ../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
 <inserted text> 
                 $
-l.29 ...& 9.952\times10^{-1} & 1.021 & 9.547\times
-                                                  10^{-1} & 1.037 \\
+l.29 ...9.952\times10^{-1}$ & $1.021 & 9.547\times
+                                                  10^{-1}$ & 1.037 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 ...imes10^{-1} & 1.021 & 9.547\times10^{-1} &
-                                                   1.037 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 \textbf{$\epsilon_N$} & 2.900\times
-                                        10^{-2} & 3.598\times10^{-1} & 3.519...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 \textbf{$\epsilon_N$} & 2.900\times10^{-2} &
-                                                  3.598\times10^{-1} & 3.519...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...lon_N$} & 2.900\times10^{-2} & 3.598\times
-                                                  10^{-1} & 3.519\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ... 2.900\times10^{-2} & 3.598\times10^{-1} &
-                                                   3.519\times10^{-1} & 3.33...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...10^{-2} & 3.598\times10^{-1} & 3.519\times
-                                                  10^{-1} & 3.331\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ... 3.598\times10^{-1} & 3.519\times10^{-1} &
-                                                   3.331\times10^{-1} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:31: Missing $ inserted.
-<inserted text> 
-                $
-l.31 ...10^{-1} & 3.519\times10^{-1} & 3.331\times
-                                                  10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 \textbf
-            {$s_N$} & 1.671\times10^{-1} & 1.580\times10^{-1} & 1.001\times1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 \textbf{$s_N$} & 1.671\times
-                                 10^{-1} & 1.580\times10^{-1} & 1.001\times1...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 \textbf{$s_N$} & 1.671\times10^{-1} &
-                                           1.580\times10^{-1} & 1.001\times1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...{$s_N$} & 1.671\times10^{-1} & 1.580\times
-                                                  10^{-1} & 1.001\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ... 1.671\times10^{-1} & 1.580\times10^{-1} &
-                                                   1.001\times10^{-1} & 1.23...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...10^{-1} & 1.580\times10^{-1} & 1.001\times
-                                                  10^{-1} & 1.234\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ... 1.580\times10^{-1} & 1.001\times10^{-1} &
-                                                   1.234\times10^{-1} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:32: Missing $ inserted.
-<inserted text> 
-                $
-l.32 ...10^{-1} & 1.001\times10^{-1} & 1.234\times
-                                                  10^{-1} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 \textbf
-            {$f_N$} & 3.869\times10^{-2} & 5.769\times10^{-2} & 3.086\times1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 \textbf{$f_N$} & 3.869\times
-                                 10^{-2} & 5.769\times10^{-2} & 3.086\times1...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 \textbf{$f_N$} & 3.869\times10^{-2} &
-                                           5.769\times10^{-2} & 3.086\times1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...{$f_N$} & 3.869\times10^{-2} & 5.769\times
-                                                  10^{-2} & 3.086\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ... 3.869\times10^{-2} & 5.769\times10^{-2} &
-                                                   3.086\times10^{-2} & 7.59...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...10^{-2} & 5.769\times10^{-2} & 3.086\times
-                                                  10^{-2} & 7.594\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ... 5.769\times10^{-2} & 3.086\times10^{-2} &
-                                                   7.594\times10^{-2} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:33: Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...10^{-2} & 3.086\times10^{-2} & 7.594\times
-                                                  10^{-2} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 \textbf
-            {$f_0$} & 1.370\times10^{-3} & 1.431\times10^{-3} & 1.412\times1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 \textbf{$f_0$} & 1.370\times
-                                 10^{-3} & 1.431\times10^{-3} & 1.412\times1...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 \textbf{$f_0$} & 1.370\times10^{-3} &
-                                           1.431\times10^{-3} & 1.412\times1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 ...{$f_0$} & 1.370\times10^{-3} & 1.431\times
-                                                  10^{-3} & 1.412\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 ... 1.370\times10^{-3} & 1.431\times10^{-3} &
-                                                   1.412\times10^{-3} & 1.30...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 ...10^{-3} & 1.431\times10^{-3} & 1.412\times
-                                                  10^{-3} & 1.309\times10^{-...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 ... 1.431\times10^{-3} & 1.412\times10^{-3} &
-                                                   1.309\times10^{-3} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 ...10^{-3} & 1.412\times10^{-3} & 1.309\times
-                                                  10^{-3} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-../TABLES/HYPER_PARAMETER_VALUES.tex:35: Missing $ inserted.
-<inserted text> 
-                $
-l.35 \textbf
-            {$m$}   & 534.1 & 542.8 & 514.5 & 621.9 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 )
 Overfull \hbox (4.30424pt too wide) in paragraph at lines 578--581
@@ -2154,83 +1377,76 @@ Overfull \hbox (4.30424pt too wide) in paragraph at lines 578--581
 r-i-men-tal data is achieved
  []
 
-[25] [26 <../FIGURES//HYPERPARAMETERS.png>] [27]
-
-Package natbib Warning: Citation `BROCKS1995' on page 28 undefined on input lin
-e 609.
-
-[28] [29]
+[25] [26 <../FIGURES//HYPERPARAMETERS.png>] [27] [28] [29]
 Overfull \hbox (15.7194pt too wide) in paragraph at lines 636--640
 []\OT1/cmr/m/n/12 This work was funded by the Eu-ro-pean Union through the Mari
 e Sk lowodska-
  []
 
-(C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.bbl
-[30]
+
+(C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Automate-Ductile-Dama
+ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.bbl [30]
 Underfull \hbox (badness 1577) in paragraph at lines 41--50
 \OT1/cmr/m/n/12 A novel method to uniquely de-ter-mine the pa-ram-e-ters in Gur
 -
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
+Underfull \hbox (badness 10000) in paragraph at lines 106--112
 []\OT1/cmr/m/n/12 F. Ghavamian,  Ac-cel-er-at-ing fi-nite el-e-ment anal-y-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--111
+Underfull \hbox (badness 10000) in paragraph at lines 106--112
 \OT1/cmr/m/n/12 sis us-ing ma-chine learn-ing (2021). doi:[][]$\OT1/cmtt/m/n/12
  10 . 4233 / uuid :
  []
 
 [32] [33] [34] [35] [36])
-
-Package natbib Warning: There were undefined citations.
-
 \Changes@OutFile=\write5
 \openout5 = `document.soc'.
 
 \tf@loc=\write6
 \openout6 = `document.loc'.
 
-[37] (C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\AUXIL\document.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [37]
+(C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Automate-Ductile-Dama
+ge-Parameter-Selection-in-FE-Simulations\PREPRINT\AUXIL\document.aux) ) 
 Here is how much of TeX's memory you used:
- 29697 strings out of 478582
- 601069 string characters out of 2840096
- 817056 words of memory out of 3000000
- 47210 multiletter control sequences out of 15000+600000
+ 29696 strings out of 478582
+ 602455 string characters out of 2840096
+ 816978 words of memory out of 3000000
+ 47209 multiletter control sequences out of 15000+600000
  484878 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,10n,117p,515b,957s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\alison.oconnor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\tcrm1200.pk><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alison.oconnor/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/alison.oconnor/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alison.oconnor/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alison.oc
-onnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/alison.oconnor/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/al
-ison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmti7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/alison.oconnor/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on C:/Users\alison.oconnor\PycharmProjects\PAPERA\PAPERA\OUT\doc
-ument.pdf (38 pages, 1482259 bytes).
+ 114i,10n,117p,515b,961s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Use
+rs\alison.oconnor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/alison.oconnor/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/alison.o
+connor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/alison.oconnor/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alison.oconnor/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ali
+son.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/alison.oconnor/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/alison.oconn
+or/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
+Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmti7.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb><C:/Users/alison.oconnor/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on C:/Users\alison.oconnor\PycharmProjects\A-ML-Approach-to-Auto
+mate-Ductile-Damage-Parameter-Selection-in-FE-Simulations\PREPRINT\OUT\document
+.pdf (38 pages, 1482258 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
+ 562 PDF objects out of 1000 (max. 8388607)
  127 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
